@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800773142211C22F00EBD372 /* v1010_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 800773132211C22F00EBD372 /* v1010_firmware.zip */; };
 		801BEDB621E8A9B5000870AA /* team.png in Resources */ = {isa = PBXBuildFile; fileRef = 801BEDB121E8A9B4000870AA /* team.png */; };
 		80202E12217F3584009C73BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E11217F3584009C73BE /* AppDelegate.swift */; };
 		80202E14217F3584009C73BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E13217F3584009C73BE /* ViewController.swift */; };
@@ -27,7 +28,6 @@
 		804E98C12181C8B8003AA697 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E98BC2181C8B8003AA697 /* FMResultSet.m */; };
 		804E98C42181CB14003AA697 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 804E98C32181CB14003AA697 /* libsqlite3.tbd */; };
 		804E98C62181CC85003AA697 /* DAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E98C52181CC85003AA697 /* DAL.swift */; };
-		8058209821FB57F4008AB343 /* v108_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8058209721FB57F4008AB343 /* v108_firmware.zip */; };
 		806276AF219C5F5000E79EAF /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806276AE219C5F5000E79EAF /* MainController.swift */; };
 		806276B6219C67DB00E79EAF /* logoblackHD.png in Resources */ = {isa = PBXBuildFile; fileRef = 806276B5219C67DB00E79EAF /* logoblackHD.png */; };
 		806276BB219C713E00E79EAF /* playBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 806276BA219C713E00E79EAF /* playBig.png */; };
@@ -137,6 +137,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		800773132211C22F00EBD372 /* v1010_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1010_firmware.zip; sourceTree = "<group>"; };
 		801BEDB121E8A9B4000870AA /* team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team.png; sourceTree = "<group>"; };
 		80202E0E217F3584009C73BE /* GpsLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80202E11217F3584009C73BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,7 +171,6 @@
 		804E98BC2181C8B8003AA697 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		804E98C32181CB14003AA697 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		804E98C52181CC85003AA697 /* DAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAL.swift; sourceTree = "<group>"; };
-		8058209721FB57F4008AB343 /* v108_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v108_firmware.zip; sourceTree = "<group>"; };
 		8061BA2421E505E9002BF0ED /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8061BA2621E505F2002BF0ED /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		806276AE219C5F5000E79EAF /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -297,7 +297,7 @@
 		804E98AD2181C6CB003AA697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8058209721FB57F4008AB343 /* v108_firmware.zip */,
+				800773132211C22F00EBD372 /* v1010_firmware.zip */,
 				80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */,
 			);
 			path = "Supporting Files";
@@ -554,6 +554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800773142211C22F00EBD372 /* v1010_firmware.zip in Resources */,
 				806276B6219C67DB00E79EAF /* logoblackHD.png in Resources */,
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
@@ -562,7 +563,6 @@
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
 				80BD24B921E3B03F00771CAC /* settings.png in Resources */,
 				801BEDB621E8A9B5000870AA /* team.png in Resources */,
-				8058209821FB57F4008AB343 /* v108_firmware.zip in Resources */,
 				806276BB219C713E00E79EAF /* playBig.png in Resources */,
 				80202E17217F3584009C73BE /* Main.storyboard in Resources */,
 			);

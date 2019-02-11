@@ -576,8 +576,17 @@ class APIHelper
     
     static func StartSession(_ delegate: SessionDelegate)
     {
+        let date = Date()
+        let dateFormatterDate = DateFormatter()
+        dateFormatterDate.dateFormat = "yyyy-MM-dd"
         
-        let urlString = antennaApi + "StartSession?teamID=\(SharedInfo.TeamID)"
+        let dateFormatterTime = DateFormatter()
+        dateFormatterTime.dateFormat = "HH:mm:ss"
+        
+        let dateString = dateFormatterDate.string(from: date)
+        let timeString = dateFormatterTime.string(from: date)
+        
+        let urlString = antennaApi + "StartSession?teamID=\(SharedInfo.TeamID)&date=\(dateString)&time=\(timeString)"
         
         let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)
         if url != nil

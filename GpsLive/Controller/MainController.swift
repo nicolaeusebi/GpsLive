@@ -308,8 +308,14 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         
         let elapsedTime: TimeInterval = currentTime - SharedInfo.SessionStart
 
-        setDurationLabel(elapsedTime)
-        
+        if elapsedTime > 0
+        {
+            setDurationLabel(elapsedTime)
+        }
+        else
+        {
+            SharedInfo.SessionStart = currentTime
+        }
     }
     
     func setDurationLabel(_ time: TimeInterval)

@@ -30,7 +30,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     let server: URL = URL(string: "ftp://10.3.141.1/")!
     let username = "nicola"
     let password = "ksportk50"
-    let firmwareName = "v108_firmware"
+    let firmwareName = "v1010_firmware"
     
     var ftp: FTPFileProvider?
 
