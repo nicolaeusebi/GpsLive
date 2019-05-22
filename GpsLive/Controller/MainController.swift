@@ -10,6 +10,8 @@ import UIKit
 import WebKit
 
 class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigationDelegate {
+    
+    
 
 
     @IBOutlet weak var wbView: WKWebView!
@@ -32,9 +34,12 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     @IBOutlet weak var btnTile: UIButton!
     @IBOutlet weak var btnSettings: UIButton!
     
+    var isDiscard = false
     
     var timer = Timer()
     var timerPing = Timer()
+    
+    var isStopSessionCheck = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -218,11 +223,11 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     {
         let alert = UIAlertController(title: NSLocalizedString("", comment: ""), message: NSLocalizedString("Do you want to Stop the Live Session?", comment: "") , preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("Save Session", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
-            
+            self.isDiscard = false
             APIHelper.GetSessionData(self)
         }))
         alert.addAction(UIAlertAction(title: NSLocalizedString("Discard Session", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
-            
+            self.isDiscard = true
             APIHelper.StopSession(self)
         }))
         alert.addAction(UIAlertAction(title: NSLocalizedString("Continue Live", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
@@ -242,52 +247,81 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     func IsSessionActiveCompleted(success: Bool, active: Bool, elapsed: Int)
     {
         if success {
-            activityCenter.isHidden = true
-            activityCenter.stopAnimating()
-            if active
+            if isStopSessionCheck
             {
-                DispatchQueue.main.async() { () -> Void in
-                    self.wbView.isHidden = false
-                    let url = URL(string: "http://10.3.141.1/Home/LiveDevices")!
-                    self.wbView.load(URLRequest(url: url))
-                    self.wbView.allowsBackForwardNavigationGestures = false
-                    self.btnStop.isHidden = false
-                    self.lblDuration.isHidden = false
-                    self.vwBottomBar.isHidden = false
-                    SharedInfo.SessionStart = Date.timeIntervalSinceReferenceDate - TimeInterval(elapsed)
-                    let aSelector : Selector = #selector(MainController.updateTime)
-                    self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: aSelector, userInfo: nil, repeats: true)
+                isStopSessionCheck = false
+                
+                if active
+                {
+                    //TODO errore durante lo stop provare ancora
+                    DispatchQueue.main.async(execute: {
+                        self.lblLoadingSession.text = "SESSION NOT STOPPED"
+                        self.lblLoadingSession.isHidden = false
+                    })
+                    
                 }
+                else
+                {
+                    DispatchQueue.main.async(execute: {
+                        self.lblLoadingSession.isHidden = true
+                        self.btnStartBig.isHidden = false
+                    })
+                }
+                
             }
             else
             {
-                DispatchQueue.main.async() { () -> Void in
-                    var teams = DAL.LoadTeams()
-                    if teams.count > 1
-                    {
-                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                        let vc = storyboard.instantiateViewController(withIdentifier: "SelectTeamController") as! SelectTeamController
-                        vc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-                        vc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
-                        vc.teams = teams
-                        vc.parentController = self
-                        
-                        self.present(vc, animated: true, completion: nil)
+                
+                activityCenter.isHidden = true
+                activityCenter.stopAnimating()
+                if active
+                {
+                    DispatchQueue.main.async() { () -> Void in
+                        self.wbView.isHidden = false
+                        let url = URL(string: "http://10.3.141.1/Home/LiveDevices")!
+                        self.wbView.load(URLRequest(url: url))
+                        self.wbView.allowsBackForwardNavigationGestures = false
+                        self.btnStop.isHidden = false
+                        self.lblDuration.isHidden = false
+                        self.vwBottomBar.isHidden = false
+                        SharedInfo.SessionStart = Date.timeIntervalSinceReferenceDate - TimeInterval(elapsed)
+                        let aSelector : Selector = #selector(MainController.updateTime)
+                        self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: aSelector, userInfo: nil, repeats: true)
                     }
-                    else
-                    {
-                        if teams.count > 0
-                        {
-                            SharedInfo.TeamID = teams[0].Team_ID
-                            SharedInfo.TeamName = teams[0].Name
-                            self.lblTeam.text = SharedInfo.TeamName.uppercased()
-                            self.btnStartBig.isHidden = false
-//                            self.StartSyncData()
-                        }
-                    }
-                    
                 }
+                else
+                {
+                    DispatchQueue.main.async() { () -> Void in
+                        var teams = DAL.LoadTeams()
+                        if teams.count > 1
+                        {
+                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            let vc = storyboard.instantiateViewController(withIdentifier: "SelectTeamController") as! SelectTeamController
+                            vc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+                            vc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
+                            vc.teams = teams
+                            vc.parentController = self
+                            
+                            self.present(vc, animated: true, completion: nil)
+                        }
+                        else
+                        {
+                            if teams.count > 0
+                            {
+                                SharedInfo.TeamID = teams[0].Team_ID
+                                SharedInfo.TeamName = teams[0].Name
+                                self.lblTeam.text = SharedInfo.TeamName.uppercased()
+                                self.btnStartBig.isHidden = false
+                                //                            self.StartSyncData()
+                            }
+                        }
+                        
+                    }
+                }
+                
             }
+            
+            
         }
     }
     
@@ -384,11 +418,43 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
             if success
             {
                 DispatchQueue.main.async() { () -> Void in
-                    self.btnStartBig.isHidden = false
+//                    self.btnStartBig.isHidden = false
                     self.wbView.isHidden = true
                     self.btnStop.isHidden = true
                     self.lblDuration.isHidden = true
                     self.vwBottomBar.isHidden = true
+                    //TODO loading 5 secondi per dar tempo all'antenna di stoppare
+//                    self.activityCenter.isHidden = false
+//                    self.activityCenter.startAnimating()
+                    
+                    if  self.isDiscard
+                    {
+                        self.lblLoadingSession.text = "DISCARDING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
+                        self.lblLoadingSession.isHidden = false
+                        
+                        let time = DispatchTime( uptimeNanoseconds: DispatchTime.now().uptimeNanoseconds) + Double(5 * Int64(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
+                        DispatchQueue.main.asyncAfter(deadline: time) {
+//                            self.lblLoadingSession.isHidden = true
+//                            self.btnStartBig.isHidden = false
+                            
+                            self.isStopSessionCheck = true
+                            APIHelper.IsSessionActive(self)
+                        }
+                    }
+                    else
+                    {
+                        self.lblLoadingSession.text = "SAVING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
+                        self.lblLoadingSession.isHidden = false
+                        
+                        let time = DispatchTime( uptimeNanoseconds: DispatchTime.now().uptimeNanoseconds) + Double(5 * Int64(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
+                        DispatchQueue.main.asyncAfter(deadline: time) {
+                            self.lblLoadingSession.isHidden = true
+                            self.btnStartBig.isHidden = false
+                        }
+                    }
+                    
+                    
+                    
                 }
             }
         }
@@ -451,8 +517,24 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     
     func GetLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table])
     {
-        for curr in data {
-            DAL.SaveLive_Parameters_Table(curr)
+        if data.count > 0
+        {
+            DAL.DeleteLive_Parameters_Table(ID_Team: data[0].ID_Team)
+            for curr in data {
+                DAL.SaveLive_Parameters_Table(curr)
+            }
+        }
+        APIHelper.GetTotalLiveParameters(self)
+    }
+    
+    func GetTotalLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table])
+    {
+        if data.count > 0
+        {
+            DAL.DeleteLive_Parameters_Totals(ID_Team: data[0].ID_Team)
+            for curr in data {
+                DAL.Save_Total_Live_Parameters_Table(curr)
+            }
         }
         APIHelper.GetLiveDevices(self)
     }
@@ -482,8 +564,34 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         if success {
             if canLoad
             {
-                DAL.SaveSessionData(data)
-                APIHelper.StopSession(self)
+                
+                DispatchQueue.main.async() { () -> Void in
+                    let alert = UIAlertController(title: NSLocalizedString("", comment: ""), message: NSLocalizedString("Session name:", comment: "") , preferredStyle: UIAlertController.Style.alert)
+                    alert.addAction(UIAlertAction(title: NSLocalizedString("Save", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
+                        
+                        var textField: UITextField? = alert.textFields?.first
+                        
+                        if textField != nil
+                        {
+                            data.SessionName = textField!.text ?? data.SessionName
+                        }
+                        
+                        DAL.SaveSessionData(data)
+                        APIHelper.StopSession(self)
+                        
+                    }))
+                    alert.view.tintColor = UIColor.black
+                    alert.addTextField(configurationHandler: { textField in
+                        textField.text = data.SessionName
+                    })
+
+                    
+                    self.present(alert, animated: true, completion: nil)
+                }
+                
+                
+                
+                
             }
             else
             {
@@ -505,16 +613,27 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
 
 
     
-    func CreateSessionCompleted(success: Bool, data: SessionData)
+    func CreateSessionCompleted(success: Bool, message: String, data: SessionData)
     {
-//        if success {
+        if success {
             DAL.SetSessionDataAsLoaded(data)
-//        }
-        
+        }
+    
         DispatchQueue.main.async() { () -> Void in
 //            self.lblLoadingSession.isHidden = true
-            self.lblLoadingSession.text = "TO START A NEW SESSION CONNECT TO K-50 WIFI"
+            if success
+            {
+                self.lblLoadingSession.text = "TO START A NEW SESSION CONNECT TO K-50 WIFI"
+            }
+            else
+            {
+                self.lblLoadingSession.text = message
+            }
         }
     }
+    
+    
+    
+    
     
 }

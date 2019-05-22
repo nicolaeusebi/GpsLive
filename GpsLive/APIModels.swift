@@ -13,6 +13,7 @@ class SyncModel
     var Teams: [TeamInfo] = []
     var Players: [PlayerInfo] = []
     var LiveParams: [Live_Parameters_Table] = []
+    var TotalParams: [Live_Parameters_Table] = []
     var Devices: [NewLive_Devices] = []
     var Parameters: [ParameterInfo] = []
     var SessionTypes: [SessionType_DTO] = []

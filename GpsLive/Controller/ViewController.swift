@@ -11,6 +11,8 @@ import WebKit
 
 class ViewController: UIViewController, SyncDelegate, WKNavigationDelegate {
     
+    
+    
     @IBOutlet weak var wbView: WKWebView!
     
     override func viewDidLoad() {
@@ -107,6 +109,10 @@ class ViewController: UIViewController, SyncDelegate, WKNavigationDelegate {
     
     func SyncTeamCompleted(success: Bool, data: String?)
     {
+        
+    }
+    
+    func GetTotalLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table]) {
         
     }
     

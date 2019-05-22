@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		800773142211C22F00EBD372 /* v1010_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 800773132211C22F00EBD372 /* v1010_firmware.zip */; };
 		801BEDB621E8A9B5000870AA /* team.png in Resources */ = {isa = PBXBuildFile; fileRef = 801BEDB121E8A9B4000870AA /* team.png */; };
 		80202E12217F3584009C73BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E11217F3584009C73BE /* AppDelegate.swift */; };
 		80202E14217F3584009C73BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E13217F3584009C73BE /* ViewController.swift */; };
@@ -39,11 +38,13 @@
 		807A990D218B28B300028849 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A990C218B28B300028849 /* TableController.swift */; };
 		80B3148421AFE77B005D39CF /* SelectTeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B3148321AFE77B005D39CF /* SelectTeamController.swift */; };
 		80B3148621AFE7C5005D39CF /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B3148521AFE7C5005D39CF /* TeamCell.swift */; };
+		80B9CB5B22687F0C002CF9C6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B9CB5622687F0C002CF9C6 /* WebKit.framework */; };
 		80BD24B321E38D7500771CAC /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD24B221E38D7500771CAC /* SettingsController.swift */; };
 		80BD24B421E3A28400771CAC /* FilesProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD24AA21E36FF300771CAC /* FilesProvider.framework */; };
 		80BD24B521E3A28400771CAC /* FilesProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD24AA21E36FF300771CAC /* FilesProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80BD24B921E3B03F00771CAC /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BD24B821E3B03E00771CAC /* settings.png */; };
 		80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */; };
+		80DC8AF022956199003C17AA /* v1018_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 80DC8AEF22956198003C17AA /* v1018_firmware.zip */; };
 		80FC374D219B1525001100EB /* JsonSerializerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; };
 		80FC374E219B1525001100EB /* JsonSerializerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -137,7 +138,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		800773132211C22F00EBD372 /* v1010_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1010_firmware.zip; sourceTree = "<group>"; };
 		801BEDB121E8A9B4000870AA /* team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team.png; sourceTree = "<group>"; };
 		80202E0E217F3584009C73BE /* GpsLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80202E11217F3584009C73BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,10 +183,12 @@
 		807A990C218B28B300028849 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		80B3148321AFE77B005D39CF /* SelectTeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTeamController.swift; sourceTree = "<group>"; };
 		80B3148521AFE7C5005D39CF /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		80B9CB5622687F0C002CF9C6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		80BD24A221E36FF200771CAC /* FilesProvider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FilesProvider.xcodeproj; path = "../framework gpslive/FileProvider-master/FilesProvider.xcodeproj"; sourceTree = "<group>"; };
 		80BD24B221E38D7500771CAC /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		80BD24B821E3B03E00771CAC /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gpslive.sqlite3; sourceTree = "<group>"; };
+		80DC8AEF22956198003C17AA /* v1018_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1018_firmware.zip; sourceTree = "<group>"; };
 		80FC3744219B150C001100EB /* JsonSerializerSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JsonSerializerSwift.xcodeproj; path = "../framework gpslive/JsonSerializerSwift-master/JsonSerializerSwift.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9CB5B22687F0C002CF9C6 /* WebKit.framework in Frameworks */,
 				802A69F921EDF93F001A42E1 /* NMSSH.framework in Frameworks */,
 				8071787021E50CD10049240E /* CFNetwork.framework in Frameworks */,
 				8071786F21E50CCB0049240E /* libz.tbd in Frameworks */,
@@ -297,7 +300,7 @@
 		804E98AD2181C6CB003AA697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				800773132211C22F00EBD372 /* v1010_firmware.zip */,
+				80DC8AEF22956198003C17AA /* v1018_firmware.zip */,
 				80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */,
 			);
 			path = "Supporting Files";
@@ -325,6 +328,7 @@
 		804E98C22181CB14003AA697 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80B9CB5622687F0C002CF9C6 /* WebKit.framework */,
 				8061BA2621E505F2002BF0ED /* CFNetwork.framework */,
 				8061BA2421E505E9002BF0ED /* libz.tbd */,
 				804E98C32181CB14003AA697 /* libsqlite3.tbd */,
@@ -554,7 +558,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800773142211C22F00EBD372 /* v1010_firmware.zip in Resources */,
 				806276B6219C67DB00E79EAF /* logoblackHD.png in Resources */,
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
@@ -562,6 +565,7 @@
 				80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */,
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
 				80BD24B921E3B03F00771CAC /* settings.png in Resources */,
+				80DC8AF022956199003C17AA /* v1018_firmware.zip in Resources */,
 				801BEDB621E8A9B5000870AA /* team.png in Resources */,
 				806276BB219C713E00E79EAF /* playBig.png in Resources */,
 				80202E17217F3584009C73BE /* Main.storyboard in Resources */,

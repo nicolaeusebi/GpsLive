@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iVw-9f-5Ya">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iVw-9f-5Ya">
     <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -351,10 +351,10 @@
                                     <constraint firstAttribute="width" constant="20" id="vIL-4Y-X2T"/>
                                 </constraints>
                             </activityIndicatorView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tru-6X-eXb">
-                                <rect key="frame" x="79" y="531" width="682" height="50"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="tru-6X-eXb">
+                                <rect key="frame" x="79" y="356" width="682" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="xeR-kQ-pcv"/>
+                                    <constraint firstAttribute="height" constant="400" id="xeR-kQ-pcv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TradeGothicW01-BoldCn20" family="TradeGothicW01-BoldCn20" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -825,9 +825,9 @@
     </scenes>
     <resources>
         <image name="logoblackHD.png" width="668" height="206"/>
-        <image name="playBig.png" width="512" height="512"/>
-        <image name="settings.png" width="80" height="80"/>
-        <image name="stop.png" width="512" height="512"/>
-        <image name="team.png" width="100" height="100"/>
+        <image name="playBig.png" width="384" height="384"/>
+        <image name="settings.png" width="180" height="180"/>
+        <image name="stop.png" width="384" height="384"/>
+        <image name="team.png" width="75" height="75"/>
     </resources>
 </document>

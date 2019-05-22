@@ -831,6 +831,67 @@ class DAL
         }
     }
     
+    static func LoadTotal_Live_Parameters_TableID(ID_Team: Int32, ID_Parameter: Int32) -> [Live_Parameters_Table]
+    {
+        var teams : [Live_Parameters_Table] = [];
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            let querySQL = "SELECT * FROM Live_Parameters_Totals where ID_Team = \(ID_Team) AND ID_Parameter = \(ID_Parameter);"
+            
+            let results:FMResultSet? = contactDB?.executeQuery(querySQL,
+                                                               withArgumentsIn: nil)
+            
+            while (results?.next() == true)
+            {
+                let curr = Live_Parameters_Table();
+                curr.ID_Team = results!.int(forColumn: "ID_Team")
+                curr.ColumnNumber = results!.int(forColumn: "ColumnNumber")
+                curr.ID_Parameter = results!.int(forColumn: "ID_Parameter")
+                
+                teams.append(curr)
+            }
+            
+            contactDB?.close()
+            
+            return teams;
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+            return [];
+        }
+    }
+    
+    static func LoadLive_Parameters_Totals(ID_Team: Int32) -> [Live_Parameters_Table]
+    {
+        var teams : [Live_Parameters_Table] = [];
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            let querySQL = "SELECT * FROM Live_Parameters_Totals where ID_Team = \(ID_Team);"
+            
+            let results:FMResultSet? = contactDB?.executeQuery(querySQL,
+                                                               withArgumentsIn: nil)
+            
+            while (results?.next() == true)
+            {
+                let curr = Live_Parameters_Table();
+                curr.ID_Team = results!.int(forColumn: "ID_Team")
+                curr.ID_Parameter = results!.int(forColumn: "ID_Parameter")
+                
+                teams.append(curr)
+            }
+            
+            contactDB?.close()
+            
+            return teams;
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+            return [];
+        }
+    }
+    
     static func LoadLive_Parameters_TableByTeam(ID_Team: Int32) -> [Live_Parameters_Table]
     {
         var teams : [Live_Parameters_Table] = [];
@@ -862,6 +923,59 @@ class DAL
         }
     }
     
+    
+    static func DeleteLive_Parameters_Table(ID_Team: Int32)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            
+
+                let insertSQL = "DELETE FROM Live_Parameters_Table WHERE ID_Team = \(ID_Team);"
+                
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+
+            contactDB?.close()
+            
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+        }
+    }
+    
+    static func DeleteLive_Parameters_Totals(ID_Team: Int32)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            
+            
+            let insertSQL = "DELETE FROM Live_Parameters_Totals WHERE ID_Team = \(ID_Team);"
+            
+            
+            let result = contactDB?.executeUpdate(insertSQL,
+                                                  withArgumentsIn: nil)
+            if !result! {
+                print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+            } else {
+                
+            }
+            
+            contactDB?.close()
+            
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+        }
+    }
+    
     static func SaveLive_Parameters_Table(_ data: Live_Parameters_Table)
     {
         
@@ -876,6 +990,52 @@ class DAL
             {
                 
                 let insertSQL = "INSERT INTO Live_Parameters_Table ( ID_Team, ColumnNumber, ID_Parameter) VALUES (\(data.ID_Team), \(data.ColumnNumber), \(data.ID_Parameter));"
+                
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            else
+            {
+                
+                let insertSQL = "Update Live_Parameters_Table SET ID_Parameter = \(data.ID_Parameter) where ColumnNumber = \(data.ColumnNumber) AND ID_Team = \(data.ID_Team);"
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            contactDB?.close()
+            
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+        }
+    }
+    
+    static func Save_Total_Live_Parameters_Table(_ data: Live_Parameters_Table)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            
+            let loaded = LoadTotal_Live_Parameters_TableID(ID_Team: data.ID_Team, ID_Parameter: data.ID_Parameter)
+            
+            
+            if loaded.count == 0
+            {
+                
+                let insertSQL = "INSERT INTO Live_Parameters_Totals ( ID_Team, ID_Parameter) VALUES (\(data.ID_Team), \(data.ID_Parameter));"
                 
                 
                 let result = contactDB?.executeUpdate(insertSQL,

@@ -153,6 +153,7 @@ class APIHelper
                                     curr.Team_ID = userData["Team_ID"] as! Int32
                                     curr.SessionTypeId = userData["SessionTypeId"] as! Int32
                                     curr.SessionName = userData["SessionName"] as! String
+                                    curr.training = userData["training"] as! Bool
 //                                    curr.isTotal = userData["isTotal"] as! Bool
                                     curr.KSSessionTypeKey = userData["KSSessionTypeKey"] as? Int32
                                     res.append(curr)
@@ -448,7 +449,68 @@ class APIHelper
         
     }
     
-
+    static func GetTotalLiveParameters(_ delegate: SyncDelegate)
+    {
+        
+        let urlString = mobileApi + "GetTotalLiveParameters"
+        
+        let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)
+        if url != nil
+        {
+            var request = URLRequest(url: url!)
+            request.httpMethod = "GET"
+            request.addValue("application/json",forHTTPHeaderField: "Content-Type")
+            request.addValue("application/json",forHTTPHeaderField: "Accept")
+            
+            if SharedInfo.getUserName() != "" && SharedInfo.getPassword() != ""
+            {
+                request.addValue(SharedInfo.getUserName(), forHTTPHeaderField: "ks_usr")
+                let pwd = SharedInfo.getPassword()
+                request.addValue(pwd, forHTTPHeaderField: "ks_pwd")
+            }
+            
+            let config = URLSessionConfiguration.default
+            let session = URLSession(configuration: config)
+            let task : URLSessionDataTask = session.dataTask(with: request, completionHandler: {(data, response, error) in
+                
+                
+                do {
+                    if data != nil
+                    {
+                        let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
+                        
+                        let success = json["Result"] as? String
+                        
+                        if success != nil && success == "OK"
+                        {
+                            
+                            let usersData = json["Records"] as! [[String:AnyObject]]
+                            
+                            var res : [Live_Parameters_Table] = []
+                            
+                            for userData  in usersData
+                            {
+                                let curr = Live_Parameters_Table();
+                                curr.ID_Team = userData["ID_Team"] as! Int32
+                                curr.ID_Parameter = userData["ID_Parameter"] as! Int32
+                                res.append(curr)
+                            }
+                            
+                            delegate.GetTotalLiveParametersCompleted(success: true, data: res)
+                        }
+                    }
+                    
+                } catch {
+                    // stuff if fails
+                    print("Error, Could not parse the JSON request")
+                }
+                
+            });
+            task.resume()
+            
+        }
+        
+    }
     
     static func GetLiveDevices(_ delegate: SyncDelegate)
     {
@@ -611,6 +673,13 @@ class APIHelper
                 do {
                     if data != nil
                     {
+                        var testString = String(data: data!, encoding: String.Encoding.utf8) as String!
+                        
+                        if  testString?.contains("504 Gateway Time-out") ?? false //Errore primo avvio
+                        {
+                            delegate.StartStopSessionCompleted(success: true, start: true)
+                        }
+                        
                         let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
                         
                         let result = json["result"] as? String
@@ -719,6 +788,7 @@ class APIHelper
             model.Players = DAL.LoadPlayerInfoByTeamID(teamID: SharedInfo.TeamID)
             model.Devices = DAL.LoadNewLive_DevicesByTeam(ID_Team: SharedInfo.TeamID)
             model.LiveParams = DAL.LoadLive_Parameters_TableByTeam(ID_Team: SharedInfo.TeamID)
+            model.TotalParams = DAL.LoadLive_Parameters_Totals(ID_Team: SharedInfo.TeamID)
             model.Parameters = DAL.LoadParameterInfoByTeamID(TeamID: SharedInfo.TeamID)
             model.Teams = DAL.LoadTeamByID(Team_ID: SharedInfo.TeamID)
             model.SessionTypes = DAL.LoadSessionTypeByTeamID(Team_ID: SharedInfo.TeamID)
@@ -904,16 +974,19 @@ class APIHelper
                         
                         if success != nil && success == "OK"
                         {
-                            delegate.CreateSessionCompleted(success: true, data: session)
+                            delegate.CreateSessionCompleted(success: true, message: message ?? "", data: session)
                         }
                         else
                         {
-                            delegate.CreateSessionCompleted(success: false, data: session)
+                            delegate.CreateSessionCompleted(success: false, message: message ?? "", data: session)
                         }
                     }
                     
                 } catch {
                     print("Error, Could not parse the JSON request")
+                    var dataString = String(data: data!, encoding: String.Encoding.utf8) as String!
+                    let message = "Could not parse the JSON request: \(dataString)"
+                    delegate.CreateSessionCompleted(success: false, message: message, data: session)
                 }
                 
             });
@@ -938,6 +1011,7 @@ protocol SyncDelegate
     func GetPlayersCompleted(success: Bool, data : [PlayerInfo])
     func GetTeamCompleted(success: Bool, data : [TeamInfo])
     func GetLiveParametersCompleted(success: Bool, data : [Live_Parameters_Table])
+    func GetTotalLiveParametersCompleted(success: Bool, data : [Live_Parameters_Table])
     func GetLiveDevicesCompleted(success: Bool, data : [NewLive_Devices])
     func SyncTeamCompleted(success: Bool, data : String?)
 }
@@ -948,5 +1022,5 @@ protocol SessionDelegate
     func StartStopSessionCompleted(success: Bool, start : Bool)
     func PingCompleted(success: Bool, time : TimeInterval, version: String?)
     func GetSessionDataCompleted(success: Bool, data : SessionData, canLoad: Bool)
-    func CreateSessionCompleted(success: Bool, data : SessionData)
+    func CreateSessionCompleted(success: Bool, message: String, data : SessionData)
 }

@@ -16,6 +16,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     
     
     
+    
 
     @IBOutlet weak var btnBack: UIButton!
     @IBOutlet weak var btnUpdateFirmware: UIButton!
@@ -30,7 +31,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     let server: URL = URL(string: "ftp://10.3.141.1/")!
     let username = "nicola"
     let password = "ksportk50"
-    let firmwareName = "v1010_firmware"
+    let firmwareName = "v1018_firmware"
     
     var ftp: FTPFileProvider?
 
@@ -271,7 +272,11 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
         
     }
     
-    func CreateSessionCompleted(success: Bool, data: SessionData) {
+    func CreateSessionCompleted(success: Bool, message: String, data: SessionData) {
+        
+    }
+    
+    func GetTotalLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table]) {
         
     }
 
