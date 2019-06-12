@@ -44,7 +44,7 @@
 		80BD24B521E3A28400771CAC /* FilesProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD24AA21E36FF300771CAC /* FilesProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80BD24B921E3B03F00771CAC /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BD24B821E3B03E00771CAC /* settings.png */; };
 		80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */; };
-		80DC8AF022956199003C17AA /* v1018_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 80DC8AEF22956198003C17AA /* v1018_firmware.zip */; };
+		80D983B022B148B000B9DF31 /* v1025_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 80D983AF22B148B000B9DF31 /* v1025_firmware.zip */; };
 		80FC374D219B1525001100EB /* JsonSerializerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; };
 		80FC374E219B1525001100EB /* JsonSerializerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -188,7 +188,7 @@
 		80BD24B221E38D7500771CAC /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		80BD24B821E3B03E00771CAC /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gpslive.sqlite3; sourceTree = "<group>"; };
-		80DC8AEF22956198003C17AA /* v1018_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1018_firmware.zip; sourceTree = "<group>"; };
+		80D983AF22B148B000B9DF31 /* v1025_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1025_firmware.zip; sourceTree = "<group>"; };
 		80FC3744219B150C001100EB /* JsonSerializerSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JsonSerializerSwift.xcodeproj; path = "../framework gpslive/JsonSerializerSwift-master/JsonSerializerSwift.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,7 +300,7 @@
 		804E98AD2181C6CB003AA697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				80DC8AEF22956198003C17AA /* v1018_firmware.zip */,
+				80D983AF22B148B000B9DF31 /* v1025_firmware.zip */,
 				80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */,
 			);
 			path = "Supporting Files";
@@ -562,10 +562,10 @@
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
 				80202E19217F3586009C73BE /* Assets.xcassets in Resources */,
+				80D983B022B148B000B9DF31 /* v1025_firmware.zip in Resources */,
 				80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */,
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
 				80BD24B921E3B03F00771CAC /* settings.png in Resources */,
-				80DC8AF022956199003C17AA /* v1018_firmware.zip in Resources */,
 				801BEDB621E8A9B5000870AA /* team.png in Resources */,
 				806276BB219C713E00E79EAF /* playBig.png in Resources */,
 				80202E17217F3584009C73BE /* Main.storyboard in Resources */,

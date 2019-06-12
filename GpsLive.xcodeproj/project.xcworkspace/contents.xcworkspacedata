@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GpsLive.xcodeproj">
+      location = "group:v1019_firmware.zip">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
