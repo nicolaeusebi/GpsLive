@@ -296,7 +296,7 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoblackHD.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9y-sr-t5b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logonew2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9y-sr-t5b">
                                 <rect key="frame" x="319.5" y="20" width="195" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="Vzg-Qo-oSS"/>
@@ -442,7 +442,7 @@
                                     <constraint firstItem="aec-t8-Qf8" firstAttribute="leading" secondItem="tC9-AU-zsA" secondAttribute="leading" constant="8" id="nJp-Ok-9II"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoblackHD.png" translatesAutoresizingMaskIntoConstraints="NO" id="At9-Ie-XZg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logonew2.png" translatesAutoresizingMaskIntoConstraints="NO" id="At9-Ie-XZg">
                                 <rect key="frame" x="319.5" y="30" width="195" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VB9-PO-jmI"/>
@@ -824,7 +824,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logoblackHD.png" width="668" height="206"/>
+        <image name="logonew2.png" width="160.32000732421875" height="49"/>
         <image name="playBig.png" width="384" height="384"/>
         <image name="settings.png" width="180" height="180"/>
         <image name="stop.png" width="384" height="384"/>

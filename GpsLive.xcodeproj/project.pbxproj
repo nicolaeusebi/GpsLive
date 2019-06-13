@@ -18,6 +18,7 @@
 		80202E43217F4FC4009C73BE /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E42217F4FC4009C73BE /* APIHelper.swift */; };
 		80202E45217F506A009C73BE /* SharedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80202E44217F506A009C73BE /* SharedInfo.swift */; };
 		80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80202E47217F614C009C73BE /* TradeGothicRegular.ttf */; };
+		8026CA6222B245500086E067 /* logonew2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8026CA6122B2454F0086E067 /* logonew2.png */; };
 		802A69F921EDF93F001A42E1 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802A69F821EDF93E001A42E1 /* NMSSH.framework */; };
 		8039294821807D98006D7AA7 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039294721807D98006D7AA7 /* APIModels.swift */; };
 		804E98BD2181C8B8003AA697 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E98B22181C8B5003AA697 /* FMDatabase.m */; };
@@ -155,6 +156,7 @@
 		80202E42217F4FC4009C73BE /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		80202E44217F506A009C73BE /* SharedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedInfo.swift; sourceTree = "<group>"; };
 		80202E47217F614C009C73BE /* TradeGothicRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TradeGothicRegular.ttf; sourceTree = "<group>"; };
+		8026CA6122B2454F0086E067 /* logonew2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logonew2.png; sourceTree = "<group>"; };
 		802A69F821EDF93E001A42E1 /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMSSH.framework; sourceTree = "<group>"; };
 		8039294721807D98006D7AA7 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
 		804E98B12181C8B4003AA697 /* GpsLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GpsLive-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 		806276B4219C67CE00E79EAF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8026CA6122B2454F0086E067 /* logonew2.png */,
 				801BEDB121E8A9B4000870AA /* team.png */,
 				806276BC219C88A200E79EAF /* stop.png */,
 				80BD24B821E3B03E00771CAC /* settings.png */,
@@ -562,6 +565,7 @@
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
 				80202E19217F3586009C73BE /* Assets.xcassets in Resources */,
+				8026CA6222B245500086E067 /* logonew2.png in Resources */,
 				80D983B022B148B000B9DF31 /* v1025_firmware.zip in Resources */,
 				80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */,
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
@@ -816,7 +820,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "GpsLive/FMDB/GpsLive-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -844,7 +848,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GpsLive/FMDB/GpsLive-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
