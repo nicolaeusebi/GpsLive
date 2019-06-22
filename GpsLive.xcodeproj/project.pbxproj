@@ -21,6 +21,7 @@
 		8026CA6222B245500086E067 /* logonew2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8026CA6122B2454F0086E067 /* logonew2.png */; };
 		802A69F921EDF93F001A42E1 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802A69F821EDF93E001A42E1 /* NMSSH.framework */; };
 		8039294821807D98006D7AA7 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039294721807D98006D7AA7 /* APIModels.swift */; };
+		8043782F22BE4527005B2195 /* v1100_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8043782E22BE4527005B2195 /* v1100_firmware.zip */; };
 		804E98BD2181C8B8003AA697 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E98B22181C8B5003AA697 /* FMDatabase.m */; };
 		804E98BE2181C8B8003AA697 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E98B32181C8B5003AA697 /* FMDatabasePool.m */; };
 		804E98BF2181C8B8003AA697 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E98B42181C8B6003AA697 /* FMDatabaseAdditions.m */; };
@@ -45,7 +46,6 @@
 		80BD24B521E3A28400771CAC /* FilesProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD24AA21E36FF300771CAC /* FilesProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80BD24B921E3B03F00771CAC /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 80BD24B821E3B03E00771CAC /* settings.png */; };
 		80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */; };
-		80D983B022B148B000B9DF31 /* v1025_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 80D983AF22B148B000B9DF31 /* v1025_firmware.zip */; };
 		80FC374D219B1525001100EB /* JsonSerializerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; };
 		80FC374E219B1525001100EB /* JsonSerializerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC374A219B150D001100EB /* JsonSerializerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -159,6 +159,7 @@
 		8026CA6122B2454F0086E067 /* logonew2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logonew2.png; sourceTree = "<group>"; };
 		802A69F821EDF93E001A42E1 /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMSSH.framework; sourceTree = "<group>"; };
 		8039294721807D98006D7AA7 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		8043782E22BE4527005B2195 /* v1100_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1100_firmware.zip; sourceTree = "<group>"; };
 		804E98B12181C8B4003AA697 /* GpsLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GpsLive-Bridging-Header.h"; sourceTree = "<group>"; };
 		804E98B22181C8B5003AA697 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		804E98B32181C8B5003AA697 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
@@ -190,7 +191,6 @@
 		80BD24B221E38D7500771CAC /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		80BD24B821E3B03E00771CAC /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gpslive.sqlite3; sourceTree = "<group>"; };
-		80D983AF22B148B000B9DF31 /* v1025_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1025_firmware.zip; sourceTree = "<group>"; };
 		80FC3744219B150C001100EB /* JsonSerializerSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JsonSerializerSwift.xcodeproj; path = "../framework gpslive/JsonSerializerSwift-master/JsonSerializerSwift.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -302,7 +302,7 @@
 		804E98AD2181C6CB003AA697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				80D983AF22B148B000B9DF31 /* v1025_firmware.zip */,
+				8043782E22BE4527005B2195 /* v1100_firmware.zip */,
 				80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */,
 			);
 			path = "Supporting Files";
@@ -564,9 +564,9 @@
 				806276B6219C67DB00E79EAF /* logoblackHD.png in Resources */,
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
+				8043782F22BE4527005B2195 /* v1100_firmware.zip in Resources */,
 				80202E19217F3586009C73BE /* Assets.xcassets in Resources */,
 				8026CA6222B245500086E067 /* logonew2.png in Resources */,
-				80D983B022B148B000B9DF31 /* v1025_firmware.zip in Resources */,
 				80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */,
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
 				80BD24B921E3B03F00771CAC /* settings.png in Resources */,

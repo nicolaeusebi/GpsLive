@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.019358"
+            timestampString = "582818321.787969"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,13 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0202"
+            timestampString = "582818321.788481"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +74,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.020638"
+            timestampString = "582818321.788654"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,13 +106,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.02109"
+            timestampString = "582818321.788861"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
             endingLineNumber = "114"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionTypes(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,13 +122,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.021487"
+            timestampString = "582818321.789052"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "137"
             endingLineNumber = "137"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionTypes(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -586,13 +586,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/AppDelegate.swift"
-            timestampString = "582127138.022411"
+            timestampString = "582894949.7235529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
             endingLineNumber = "26"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -602,13 +602,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/AppDelegate.swift"
-            timestampString = "582127138.022859"
+            timestampString = "582894949.72394"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
             endingLineNumber = "31"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "getWiFiSsid()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -646,17 +646,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0232"
+            timestampString = "582818321.791424"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "779"
             endingLineNumber = "779"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -714,13 +714,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.02369"
+            timestampString = "582818321.791726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "817"
             endingLineNumber = "817"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -730,29 +730,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.024044"
+            timestampString = "582818321.791943"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "803"
             endingLineNumber = "803"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.024482"
+            timestampString = "582818321.792088"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "824"
             endingLineNumber = "824"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -762,13 +762,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.024868"
+            timestampString = "582818321.792315"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "797"
             endingLineNumber = "797"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -778,13 +778,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0251909"
+            timestampString = "582818321.792593"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "796"
             endingLineNumber = "796"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -810,29 +810,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0256979"
+            timestampString = "582818321.7928129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "835"
             endingLineNumber = "835"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0261641"
+            timestampString = "582818321.792992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "815"
             endingLineNumber = "815"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -842,13 +842,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0266"
+            timestampString = "582818321.793211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "581"
             endingLineNumber = "581"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -858,13 +858,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.02693"
+            timestampString = "582818321.793449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "604"
             endingLineNumber = "604"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -874,13 +874,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.027294"
+            timestampString = "582818321.793633"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "583"
             endingLineNumber = "583"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -890,13 +890,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.027693"
+            timestampString = "582818321.793828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "741"
             endingLineNumber = "741"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StopSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -906,13 +906,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.028044"
+            timestampString = "582818321.79396"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "720"
             endingLineNumber = "720"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StopSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -922,13 +922,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0284131"
+            timestampString = "582818321.794149"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "674"
             endingLineNumber = "674"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -938,13 +938,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.028698"
+            timestampString = "582818321.79433"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "653"
             endingLineNumber = "653"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -954,13 +954,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.02905"
+            timestampString = "582894949.724417"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "391"
             endingLineNumber = "391"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartStopSessionCompleted(success:start:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -970,13 +970,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0297951"
+            timestampString = "582818321.795958"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "611"
             endingLineNumber = "611"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -986,13 +986,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.03013"
+            timestampString = "582894949.725603"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
             endingLineNumber = "136"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "PingCompleted(success:time:version:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1002,13 +1002,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.030514"
+            timestampString = "582818321.796898"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1018,13 +1018,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.030918"
+            timestampString = "582818321.797022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1034,13 +1034,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.031424"
+            timestampString = "582818321.79717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
             endingLineNumber = "84"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1050,13 +1050,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.031821"
+            timestampString = "582818321.797321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1066,13 +1066,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.032166"
+            timestampString = "582894949.726308"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "510"
             endingLineNumber = "510"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetPlayersCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1290,13 +1290,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.032931"
+            timestampString = "582818321.798622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "263"
             endingLineNumber = "263"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetPlayers(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1306,13 +1306,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.033502"
+            timestampString = "582894949.727103"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "548"
             endingLineNumber = "548"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevicesCompleted(success:data:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1354,13 +1354,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.033903"
+            timestampString = "582894949.727972"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "513"
             endingLineNumber = "513"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetPlayersCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1370,13 +1370,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.0342849"
+            timestampString = "582894949.728601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "523"
             endingLineNumber = "523"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParametersCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1386,13 +1386,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.03466"
+            timestampString = "582894949.729234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "527"
             endingLineNumber = "527"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParametersCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1402,13 +1402,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.035152"
+            timestampString = "582894949.729839"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "545"
             endingLineNumber = "545"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevicesCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1418,13 +1418,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.035659"
+            timestampString = "582818321.803393"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "543"
             endingLineNumber = "543"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1434,13 +1434,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.036083"
+            timestampString = "582818321.80354"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "518"
             endingLineNumber = "518"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1450,13 +1450,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.036441"
+            timestampString = "582818321.803668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "541"
             endingLineNumber = "541"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1466,13 +1466,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.036775"
+            timestampString = "582894949.730489"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "556"
             endingLineNumber = "556"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeamCompleted(success:data:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1514,13 +1514,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.03715"
+            timestampString = "582894949.731077"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "216"
             endingLineNumber = "216"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "btnPlayBig(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1530,13 +1530,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.037497"
+            timestampString = "582894949.731662"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "397"
             endingLineNumber = "397"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartStopSessionCompleted(success:start:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1546,13 +1546,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.037865"
+            timestampString = "582818321.806253"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "334"
             endingLineNumber = "334"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1578,13 +1578,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.038218"
+            timestampString = "582894949.732294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "494"
             endingLineNumber = "494"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionTypesCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1606,17 +1606,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.038677"
+            timestampString = "582818321.807192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "799"
             endingLineNumber = "799"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1626,13 +1626,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.039055"
+            timestampString = "582818321.807339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "871"
             endingLineNumber = "871"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionData(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1642,13 +1642,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.039461"
+            timestampString = "582818321.807482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "848"
             endingLineNumber = "848"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionData(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1658,13 +1658,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.039839"
+            timestampString = "582818321.807608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "850"
             endingLineNumber = "850"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionData(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1674,13 +1674,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.040244"
+            timestampString = "582894949.733061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "564"
             endingLineNumber = "564"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionDataCompleted(success:data:canLoad:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1754,13 +1754,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.040738"
+            timestampString = "582818321.808742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "940"
             endingLineNumber = "940"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1770,13 +1770,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.041139"
+            timestampString = "582818321.808862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "967"
             endingLineNumber = "967"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1786,13 +1786,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.041712"
+            timestampString = "582818321.808975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "972"
             endingLineNumber = "972"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1802,13 +1802,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.042065"
+            timestampString = "582818321.809093"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "975"
             endingLineNumber = "975"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1818,13 +1818,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.042401"
+            timestampString = "582818321.809236"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "951"
             endingLineNumber = "951"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1834,13 +1834,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0427769"
+            timestampString = "582818321.809317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "957"
             endingLineNumber = "957"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1866,13 +1866,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.043269"
+            timestampString = "582894949.733942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "480"
             endingLineNumber = "480"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeamCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1882,13 +1882,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.043811"
+            timestampString = "582894949.734573"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "331"
             endingLineNumber = "331"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "teamSelected()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1898,13 +1898,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.044188"
+            timestampString = "582894949.735186"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "625"
             endingLineNumber = "625"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSessionCompleted(success:message:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1914,13 +1914,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.04452"
+            timestampString = "582894949.73581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "622"
             endingLineNumber = "622"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSessionCompleted(success:message:data:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1962,13 +1962,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.044939"
+            timestampString = "582894949.7363909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1978,13 +1978,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.0453579"
+            timestampString = "582894949.736729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
             endingLineNumber = "155"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SettingsController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1994,13 +1994,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.045717"
+            timestampString = "582894949.737012"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "165"
             endingLineNumber = "165"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "btnSettingsTouched(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2042,13 +2042,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.046134"
+            timestampString = "582894949.737635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
             endingLineNumber = "40"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2090,7 +2090,7 @@
                   moduleName = "FilesProvider"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nicolaeusebi/Documents/framework%20gpslive/FileProvider-master/Sources/FTPFileProvider.swift"
-                  timestampString = "582040264.407913"
+                  timestampString = "582816247.4202861"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "248"
@@ -2105,7 +2105,7 @@
                   moduleName = "FilesProvider"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nicolaeusebi/Documents/framework%20gpslive/FileProvider-master/Sources/FTPFileProvider.swift"
-                  timestampString = "582040264.409813"
+                  timestampString = "582816247.422531"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "249"
@@ -2297,7 +2297,7 @@
                   moduleName = "FilesProvider"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nicolaeusebi/Documents/framework%20gpslive/FileProvider-master/Sources/FTPHelper.swift"
-                  timestampString = "582040264.418655"
+                  timestampString = "582816247.430264"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "331"
@@ -2312,7 +2312,7 @@
                   moduleName = "FilesProvider"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nicolaeusebi/Documents/framework%20gpslive/FileProvider-master/Sources/FTPHelper.swift"
-                  timestampString = "582040264.420591"
+                  timestampString = "582816247.432037"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "333"
@@ -2409,13 +2409,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.04678"
+            timestampString = "582894949.738153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
             endingLineNumber = "113"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "startUpdate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2425,13 +2425,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.047137"
+            timestampString = "582894949.738662"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "124"
             endingLineNumber = "124"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "startUpdate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2441,13 +2441,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.047487"
+            timestampString = "582894949.739145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "126"
             endingLineNumber = "126"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "startUpdate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2457,13 +2457,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.0478621"
+            timestampString = "582894949.739552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "123"
             endingLineNumber = "123"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "startUpdate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2473,13 +2473,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.0483479"
+            timestampString = "582894949.739864"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "176"
             endingLineNumber = "176"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "fileproviderProgress(_:operation:progress:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2489,13 +2489,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.048651"
+            timestampString = "582894949.740173"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "171"
             endingLineNumber = "171"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "fileproviderFailed(_:operation:error:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2505,13 +2505,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.049019"
+            timestampString = "582894949.740454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "163"
             endingLineNumber = "163"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "fileproviderSucceed(_:operation:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2521,13 +2521,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.04941"
+            timestampString = "582894949.740733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "262"
             endingLineNumber = "262"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "PingCompleted(success:time:version:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2537,13 +2537,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.049804"
+            timestampString = "582894949.741016"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "245"
             endingLineNumber = "245"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeamCompleted(success:data:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -2585,13 +2585,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.050269"
+            timestampString = "582818321.8227741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "790"
             endingLineNumber = "790"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2633,13 +2633,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.050959"
+            timestampString = "582894949.741348"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "544"
             endingLineNumber = "544"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevicesCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2681,13 +2681,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0517811"
+            timestampString = "582818321.8237799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "918"
             endingLineNumber = "918"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionData(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2697,13 +2697,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.0523781"
+            timestampString = "582894949.742231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
             endingLineNumber = "58"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2713,13 +2713,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.052839"
+            timestampString = "582894949.742946"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
             endingLineNumber = "64"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "handleAppear()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2729,13 +2729,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/AppDelegate.swift"
-            timestampString = "582127138.0533"
+            timestampString = "582894949.7435811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "applicationDidBecomeActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2745,13 +2745,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/AppDelegate.swift"
-            timestampString = "582127138.053669"
+            timestampString = "582894949.743889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
             endingLineNumber = "61"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "applicationWillEnterForeground(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2761,13 +2761,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.053964"
+            timestampString = "582894949.744144"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "handleAppear()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2777,13 +2777,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.0543211"
+            timestampString = "582818321.8269399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "969"
             endingLineNumber = "969"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2793,13 +2793,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.054738"
+            timestampString = "582894949.744789"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "339"
             endingLineNumber = "339"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "updateTime()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2809,13 +2809,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.055096"
+            timestampString = "582894949.745391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "345"
             endingLineNumber = "345"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "updateTime()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2825,13 +2825,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.055516"
+            timestampString = "582818321.829616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "641"
             endingLineNumber = "641"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2841,29 +2841,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.055889"
+            timestampString = "582818321.829798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "955"
             endingLineNumber = "955"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CreateSession(_:session:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.056298"
+            timestampString = "582894949.7460099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "572"
             endingLineNumber = "572"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionDataCompleted(success:data:canLoad:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2873,13 +2873,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.0566601"
+            timestampString = "582894949.7467231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "393"
             endingLineNumber = "393"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartStopSessionCompleted(success:start:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2889,13 +2889,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.057005"
+            timestampString = "582894949.747342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "252"
             endingLineNumber = "252"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2905,13 +2905,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.057441"
+            timestampString = "582894949.747906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "261"
             endingLineNumber = "261"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2921,13 +2921,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.057844"
+            timestampString = "582894949.748458"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "295"
             endingLineNumber = "295"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2937,13 +2937,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.058211"
+            timestampString = "582818321.833721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "678"
             endingLineNumber = "678"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2953,13 +2953,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/MainController.swift"
-            timestampString = "582127138.058604"
+            timestampString = "582894949.749043"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "532"
             endingLineNumber = "532"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTotalLiveParametersCompleted(success:data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2969,13 +2969,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "582127138.0589941"
+            timestampString = "582894949.749622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
             endingLineNumber = "152"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StartSyncData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2985,13 +2985,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
-            timestampString = "582127138.059359"
+            timestampString = "582818321.835066"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "742"
             endingLineNumber = "742"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StopSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
