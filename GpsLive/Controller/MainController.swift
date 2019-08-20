@@ -217,6 +217,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         btnStartBig.isHidden = true
         activityCenter.isHidden = false
         activityCenter.startAnimating()
+        btnSettings.isHidden = true
     }
     
     @IBAction func btnStopTouched(_ sender: Any)
@@ -265,6 +266,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                     DispatchQueue.main.async(execute: {
                         self.lblLoadingSession.isHidden = true
                         self.btnStartBig.isHidden = false
+                        self.btnSettings.isHidden = false
                     })
                 }
                 
@@ -312,6 +314,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                                 SharedInfo.TeamName = teams[0].Name
                                 self.lblTeam.text = SharedInfo.TeamName.uppercased()
                                 self.btnStartBig.isHidden = false
+                                self.btnSettings.isHidden = false
                                 //                            self.StartSyncData()
                             }
                         }
@@ -418,14 +421,11 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
             if success
             {
                 DispatchQueue.main.async() { () -> Void in
-//                    self.btnStartBig.isHidden = false
                     self.wbView.isHidden = true
                     self.btnStop.isHidden = true
                     self.lblDuration.isHidden = true
                     self.vwBottomBar.isHidden = true
-                    //TODO loading 5 secondi per dar tempo all'antenna di stoppare
-//                    self.activityCenter.isHidden = false
-//                    self.activityCenter.startAnimating()
+
                     
                     if  self.isDiscard
                     {
@@ -434,8 +434,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                         
                         let time = DispatchTime( uptimeNanoseconds: DispatchTime.now().uptimeNanoseconds) + Double(5 * Int64(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
                         DispatchQueue.main.asyncAfter(deadline: time) {
-//                            self.lblLoadingSession.isHidden = true
-//                            self.btnStartBig.isHidden = false
+
                             
                             self.isStopSessionCheck = true
                             APIHelper.IsSessionActive(self)

@@ -8,16 +8,22 @@
 
 import UIKit
 import SystemConfiguration.CaptiveNetwork
+import CoreLocation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     var window: UIWindow?
-
+    var locationManager: CLLocationManager?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         DAL.CheckDatabase()
+        
+        locationManager = CLLocationManager()
+        locationManager?.delegate = self
+        locationManager?.requestWhenInUseAuthorization()
+        
         let wifiSsid = getWiFiSsid()
         if wifiSsid != nil && wifiSsid!.hasPrefix("K-50") {
             SharedInfo.ISK50Network = true; 
