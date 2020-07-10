@@ -34,13 +34,15 @@ class LoginController: UIViewController, AuthDelegate {
     {
         if success && username != nil
         {
-            SharedInfo.setUserName(username!)
-            SharedInfo.setPassword(txtPassword.text!)
-            if parentController != nil
-            {
-                self.parentController?.StartFetchData()
+            DispatchQueue.main.async() { () -> Void in
+                SharedInfo.setUserName(username!)
+                SharedInfo.setPassword(self.txtPassword.text!)
+                if self.parentController != nil
+                {
+                    self.parentController?.StartFetchData()
+                }
+                self.dismiss(animated: true, completion: nil)
             }
-            self.dismiss(animated: true, completion: nil)
         }
         else
         {

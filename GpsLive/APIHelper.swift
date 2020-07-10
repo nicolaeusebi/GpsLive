@@ -385,6 +385,178 @@ class APIHelper
         
     }
     
+    static func GetTeamHrThresholds(_ delegate: SyncDelegate)
+    {
+        
+        let urlString = mobileApi + "GetTeamHrThresholds"
+        
+        let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)
+        if url != nil
+        {
+            var request = URLRequest(url: url!)
+            request.httpMethod = "GET"
+            request.addValue("application/json",forHTTPHeaderField: "Content-Type")
+            request.addValue("application/json",forHTTPHeaderField: "Accept")
+            
+            if SharedInfo.getUserName() != "" && SharedInfo.getPassword() != ""
+            {
+                request.addValue(SharedInfo.getUserName(), forHTTPHeaderField: "ks_usr")
+                let pwd = SharedInfo.getPassword()
+                request.addValue(pwd, forHTTPHeaderField: "ks_pwd")
+            }
+            
+            let config = URLSessionConfiguration.default
+            let session = URLSession(configuration: config)
+            let task : URLSessionDataTask = session.dataTask(with: request, completionHandler: {(data, response, error) in
+                
+                
+                do {
+                    if data != nil
+                    {
+                        let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
+                        
+                        let success = json["Result"] as? String
+                        
+                        if success != nil && success == "OK"
+                        {
+                            
+                            let usersData = json["Records"] as! [[String:AnyObject]]
+                            
+                            var res : [Team_HRThreshold] = []
+                            
+                            for userData  in usersData
+                            {
+                                let curr = Team_HRThreshold();
+                                curr.Team_ID = userData["Team_ID"] as! Int32
+                                curr.A0_Val = userData["A0_Val"] as! Double
+                                curr.A1_Val = userData["A1_Val"] as? Double ?? 0.0
+                                curr.A2_Val = userData["A2_Val"] as? Double ?? 0.0
+                                curr.A3_Val = userData["A3_Val"] as? Double ?? 0.0
+                                curr.A4_Val = userData["A4_Val"] as? Double ?? 0.0
+                                curr.A5_Val = userData["A5_Val"] as? Double ?? 0.0
+                                curr.A6_Val = userData["A6_Val"] as? Double ?? 0.0
+                                curr.A7_Val = userData["A7_Val"] as? Double ?? 0.0
+                                curr.A8_Val = userData["A8_Val"] as? Double ?? 0.0
+                                curr.A9_Val = userData["A9_Val"] as? Double ?? 0.0
+                                curr.A10_Val = userData["A10_Val"] as? Double ?? 0.0
+                                curr.HighInt_Val = userData["HighInt_Val"] as! Double
+                                
+                                curr.A1_Enable = userData["A1_Enable"] as! Bool
+                                curr.A2_Enable = userData["A2_Enable"] as! Bool
+                                curr.A3_Enable = userData["A3_Enable"] as! Bool
+                                curr.A4_Enable = userData["A4_Enable"] as! Bool
+                                curr.A5_Enable = userData["A5_Enable"] as! Bool
+                                curr.A6_Enable = userData["A6_Enable"] as! Bool
+                                curr.A7_Enable = userData["A7_Enable"] as! Bool
+                                curr.A8_Enable = userData["A8_Enable"] as! Bool
+                                curr.A9_Enable = userData["A9_Enable"] as! Bool
+                                curr.A10_Enable = userData["A10_Enable"] as! Bool
+                                
+                                res.append(curr)
+                            }
+                            
+                            delegate.GetTeamHrThresholdsCompleted(success: true, data: res)
+                        }
+                    }
+                    
+                } catch {
+                    // stuff if fails
+                    print("Error, Could not parse the JSON request")
+                }
+                
+            });
+            task.resume()
+            
+        }
+        
+    }
+    
+    static func GetTeamSpeedThresholds(_ delegate: SyncDelegate)
+    {
+        
+        let urlString = mobileApi + "GetTeamSpeedThresholds"
+        
+        let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)
+        if url != nil
+        {
+            var request = URLRequest(url: url!)
+            request.httpMethod = "GET"
+            request.addValue("application/json",forHTTPHeaderField: "Content-Type")
+            request.addValue("application/json",forHTTPHeaderField: "Accept")
+            
+            if SharedInfo.getUserName() != "" && SharedInfo.getPassword() != ""
+            {
+                request.addValue(SharedInfo.getUserName(), forHTTPHeaderField: "ks_usr")
+                let pwd = SharedInfo.getPassword()
+                request.addValue(pwd, forHTTPHeaderField: "ks_pwd")
+            }
+            
+            let config = URLSessionConfiguration.default
+            let session = URLSession(configuration: config)
+            let task : URLSessionDataTask = session.dataTask(with: request, completionHandler: {(data, response, error) in
+                
+                
+                do {
+                    if data != nil
+                    {
+                        let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
+                        
+                        let success = json["Result"] as? String
+                        
+                        if success != nil && success == "OK"
+                        {
+                            
+                            let usersData = json["Records"] as! [[String:AnyObject]]
+                            
+                            var res : [Team_SpeedThreshold] = []
+                            
+                            for userData  in usersData
+                            {
+                                let curr = Team_SpeedThreshold();
+                                curr.Team_ID = userData["Team_ID"] as! Int32
+                                curr.A0_Val = userData["A0_Val"] as! Double
+                                curr.A1_Val = userData["A1_Val"] as? Double ?? 0.0
+                                curr.A2_Val = userData["A2_Val"] as? Double ?? 0.0
+                                curr.A3_Val = userData["A3_Val"] as? Double ?? 0.0
+                                curr.A4_Val = userData["A4_Val"] as? Double ?? 0.0
+                                curr.A5_Val = userData["A5_Val"] as? Double ?? 0.0
+                                curr.A6_Val = userData["A6_Val"] as? Double ?? 0.0
+                                curr.A7_Val = userData["A7_Val"] as? Double ?? 0.0
+                                curr.A8_Val = userData["A8_Val"] as? Double ?? 0.0
+                                curr.A9_Val = userData["A9_Val"] as? Double ?? 0.0
+                                curr.A10_Val = userData["A10_Val"] as? Double ?? 0.0
+                                curr.HighInt_Val = userData["HighInt_Val"] as! Double
+                                
+                                curr.A1_Enable = userData["A1_Enable"] as! Bool
+                                curr.A2_Enable = userData["A2_Enable"] as! Bool
+                                curr.A3_Enable = userData["A3_Enable"] as! Bool
+                                curr.A4_Enable = userData["A4_Enable"] as! Bool
+                                curr.A5_Enable = userData["A5_Enable"] as! Bool
+                                curr.A6_Enable = userData["A6_Enable"] as! Bool
+                                curr.A7_Enable = userData["A7_Enable"] as! Bool
+                                curr.A8_Enable = userData["A8_Enable"] as! Bool
+                                curr.A9_Enable = userData["A9_Enable"] as! Bool
+                                curr.A10_Enable = userData["A10_Enable"] as! Bool
+                                
+                                res.append(curr)
+                            }
+                            
+                            delegate.GetTeamSpeedThresholdsCompleted(success: true, data: res)
+                        }
+                    }
+                    
+                } catch {
+                    // stuff if fails
+                    print("Error, Could not parse the JSON request")
+                }
+                
+            });
+            task.resume()
+            
+        }
+        
+    }
+    
     static func GetLiveParameters(_ delegate: SyncDelegate)
     {
         
@@ -712,6 +884,96 @@ class APIHelper
         
     }
     
+    static func StartSessionNew(_ delegate: SessionDelegate)
+    {
+        let date = Date()
+        let dateFormatterDate = DateFormatter()
+        dateFormatterDate.dateFormat = "yyyy-MM-dd"
+        
+        let dateFormatterTime = DateFormatter()
+        dateFormatterTime.dateFormat = "HH:mm:ss"
+        
+        let dateString = dateFormatterDate.string(from: date)
+        let timeString = dateFormatterTime.string(from: date)
+        
+        let urlString = antennaApi + "StartSessionNew"
+        
+        let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)
+        if url != nil
+        {
+            var request = URLRequest(url: url!)
+            request.httpMethod = "POST"
+            
+            let model = SyncModel()
+            model.Players = DAL.LoadPlayerInfoByTeamID(teamID: SharedInfo.TeamID)
+            model.Devices = DAL.LoadNewLive_DevicesByTeam(ID_Team: SharedInfo.TeamID)
+            model.LiveParams = DAL.LoadLive_Parameters_TableByTeam(ID_Team: SharedInfo.TeamID)
+            model.TotalParams = DAL.LoadLive_Parameters_Totals(ID_Team: SharedInfo.TeamID)
+            model.Parameters = DAL.LoadParameterInfoByTeamID(TeamID: SharedInfo.TeamID)
+            model.Teams = DAL.LoadTeamByID(Team_ID: SharedInfo.TeamID)
+            model.SessionTypes = DAL.LoadSessionTypeByTeamID(Team_ID: SharedInfo.TeamID)
+            model.Date = dateString
+            model.Time = timeString
+            model.TeamID = SharedInfo.TeamID
+            
+            for sessionType in model.SessionTypes {
+                sessionType.SessionName = sessionType.SessionName.replacingOccurrences(of: "\\", with: "\\b")
+            }
+            
+            model.Team_SpeedThreshold = DAL.LoadTeam_SpeedThresholdID(Team_ID: SharedInfo.TeamID)
+            model.Team_HRThreshold = DAL.LoadTeam_HRThresholdID(Team_ID: SharedInfo.TeamID)
+            
+            let serialized  = JSONSerializer.toJson(model, prettify: false)
+            print(serialized)
+            
+            request.addValue("application/json",forHTTPHeaderField: "Content-Type")
+            request.addValue("application/json",forHTTPHeaderField: "Accept")
+            request.httpBody = serialized.data(using: .utf8)
+            
+            if SharedInfo.getUserName() != "" && SharedInfo.getPassword() != ""
+            {
+                request.addValue(SharedInfo.getUserName(), forHTTPHeaderField: "ks_usr")
+                let pwd = SharedInfo.getPassword()
+                request.addValue(pwd, forHTTPHeaderField: "ks_pwd")
+            }
+            
+            let config = URLSessionConfiguration.default
+            let session = URLSession(configuration: config)
+            let task : URLSessionDataTask = session.dataTask(with: request, completionHandler: {(data, response, error) in
+                
+                do {
+                    if data != nil
+                    {
+//                        var test = String(decoding: data!, as: UTF8.self)
+                        let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
+                        
+                        let success = json["result"] as? String
+                        let message = json["message"] as? String
+                        
+                        
+                        
+                        if success == "OK"
+                        {
+                            delegate.StartStopSessionCompleted(success: true, start: true)
+                        }
+                        else
+                        {
+                            delegate.StartStopSessionCompleted(success: false, start: true)
+                        }
+                    }
+                    
+                } catch {
+                    print("Error, Could not parse the JSON request")
+                    
+                }
+                
+            });
+            task.resume()
+            
+        }
+        
+    }
+    
     static func StopSession(_ delegate: SessionDelegate)
     {
         
@@ -793,6 +1055,13 @@ class APIHelper
             model.Teams = DAL.LoadTeamByID(Team_ID: SharedInfo.TeamID)
             model.SessionTypes = DAL.LoadSessionTypeByTeamID(Team_ID: SharedInfo.TeamID)
             
+            for sessionType in model.SessionTypes {
+                sessionType.SessionName = sessionType.SessionName.replacingOccurrences(of: "\\", with: "\\b")
+            }
+            
+            model.Team_SpeedThreshold = DAL.LoadTeam_SpeedThresholdID(Team_ID: SharedInfo.TeamID)
+            model.Team_HRThreshold = DAL.LoadTeam_HRThresholdID(Team_ID: SharedInfo.TeamID)
+            
             let serialized  = JSONSerializer.toJson(model, prettify: false)
             
             
@@ -814,6 +1083,7 @@ class APIHelper
                 do {
                     if data != nil
                     {
+//                        var test = String(decoding: data!, as: UTF8.self)
                         let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
                         
                         let success = json["result"] as? String
@@ -833,6 +1103,7 @@ class APIHelper
                     
                 } catch {
                     print("Error, Could not parse the JSON request")
+                    delegate.SyncTeamCompleted(success: true, data: "")
                 }
                 
             });
@@ -1014,6 +1285,8 @@ protocol SyncDelegate
     func GetTotalLiveParametersCompleted(success: Bool, data : [Live_Parameters_Table])
     func GetLiveDevicesCompleted(success: Bool, data : [NewLive_Devices])
     func SyncTeamCompleted(success: Bool, data : String?)
+    func GetTeamHrThresholdsCompleted(success: Bool, data : [Team_HRThreshold])
+    func GetTeamSpeedThresholdsCompleted(success: Bool, data : [Team_SpeedThreshold])
 }
 
 protocol SessionDelegate

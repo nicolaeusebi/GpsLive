@@ -31,7 +31,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     let server: URL = URL(string: "ftp://10.3.141.1/")!
     let username = "nicola"
     let password = "ksportk50"
-    let firmwareName = "v1103_firmware"
+    let firmwareName = "v1301_firmware"
     
     var ftp: FTPFileProvider?
 
@@ -245,7 +245,18 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
         DispatchQueue.main.async() { () -> Void in
             self.activitySync.stopAnimating()
             self.activitySync.isHidden = true
-            self.lblSyncMEssage.isHidden = true
+            if success
+            {
+                self.lblSyncMEssage.isHidden = true
+            }
+            else
+            {
+                self.lblSyncMEssage.text = "Synchronization Failed"
+                self.lblSyncMEssage.textColor = UIColor.red
+            }
+            
+            
+            
         }
     }
     
@@ -277,6 +288,14 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     }
     
     func GetTotalLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table]) {
+        
+    }
+    
+    func GetTeamHrThresholdsCompleted(success: Bool, data: [Team_HRThreshold]) {
+        
+    }
+    
+    func GetTeamSpeedThresholdsCompleted(success: Bool, data: [Team_SpeedThreshold]) {
         
     }
 

@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import SystemConfiguration.CaptiveNetwork
 
 class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigationDelegate {
     
@@ -48,14 +49,33 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         self.setNeedsStatusBarAppearanceUpdate()
         wbView.scrollView.bounces = false
         SharedInfo.mainView = self
+        DAL.UpdateDB()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
             return .lightContent
     }
     
+    func getWiFiSsid() -> String? {
+        var ssid: String?
+        if let interfaces = CNCopySupportedInterfaces() as NSArray? {
+            for interface in interfaces {
+                if let interfaceInfo = CNCopyCurrentNetworkInfo(interface as! CFString) as NSDictionary? {
+                    ssid = interfaceInfo[kCNNetworkInfoKeySSID as String] as? String
+                    break
+                }
+            }
+        }
+        return ssid
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         
+        print("handleAppear")
+        let wifiSsid = getWiFiSsid()
+        if wifiSsid != nil && wifiSsid!.hasPrefix("K-50") {
+            SharedInfo.ISK50Network = true;
+        }
         handleAppear()
         
     }
@@ -213,7 +233,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     
     @IBAction func btnPlayBig(_ sender: Any)
     {
-        APIHelper.StartSession(self)
+        APIHelper.StartSessionNew(self)
         btnStartBig.isHidden = true
         activityCenter.isHidden = false
         activityCenter.startAnimating()
@@ -229,6 +249,15 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         }))
         alert.addAction(UIAlertAction(title: NSLocalizedString("Discard Session", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
             self.isDiscard = true
+            DispatchQueue.main.async(execute: {
+                self.wbView.isHidden = true
+                self.btnStop.isHidden = true
+                self.lblDuration.isHidden = true
+                self.vwBottomBar.isHidden = true
+                self.lblLoadingSession.text = "DISCARDING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
+                self.lblLoadingSession.isHidden = false
+            })
+            
             APIHelper.StopSession(self)
         }))
         alert.addAction(UIAlertAction(title: NSLocalizedString("Continue Live", comment: "")  ,style: UIAlertAction.Style.default, handler: { (_) -> Void in
@@ -421,35 +450,17 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
             if success
             {
                 DispatchQueue.main.async() { () -> Void in
-                    self.wbView.isHidden = true
-                    self.btnStop.isHidden = true
-                    self.lblDuration.isHidden = true
-                    self.vwBottomBar.isHidden = true
 
-                    
                     if  self.isDiscard
                     {
-                        self.lblLoadingSession.text = "DISCARDING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
-                        self.lblLoadingSession.isHidden = false
-                        
-                        let time = DispatchTime( uptimeNanoseconds: DispatchTime.now().uptimeNanoseconds) + Double(5 * Int64(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
-                        DispatchQueue.main.asyncAfter(deadline: time) {
-
-                            
-                            self.isStopSessionCheck = true
-                            APIHelper.IsSessionActive(self)
-                        }
+                        self.isStopSessionCheck = true
+                        APIHelper.IsSessionActive(self)
                     }
                     else
                     {
-                        self.lblLoadingSession.text = "SAVING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
-                        self.lblLoadingSession.isHidden = false
-                        
-                        let time = DispatchTime( uptimeNanoseconds: DispatchTime.now().uptimeNanoseconds) + Double(5 * Int64(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
-                        DispatchQueue.main.asyncAfter(deadline: time) {
-                            self.lblLoadingSession.isHidden = true
-                            self.btnStartBig.isHidden = false
-                        }
+                        self.lblLoadingSession.isHidden = true
+                        self.btnStartBig.isHidden = false
+
                     }
                     
                     
@@ -544,6 +555,22 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         for curr in data {
             DAL.SaveNewLive_Devices(curr)
         }
+        APIHelper.GetTeamHrThresholds(self)
+    }
+    
+    func GetTeamHrThresholdsCompleted(success: Bool, data: [Team_HRThreshold])
+    {
+        for curr in data {
+            DAL.SaveTeam_HRThreshold(curr)
+        }
+        APIHelper.GetTeamSpeedThresholds(self)
+    }
+    
+    func GetTeamSpeedThresholdsCompleted(success: Bool, data: [Team_SpeedThreshold])
+    {
+        for curr in data {
+            DAL.SaveTeam_SpeedThreshold(curr)
+        }
         DispatchQueue.main.async() { () -> Void in
             self.activityIndicator.stopAnimating()
             self.vwActivityBar.isHidden = true
@@ -574,6 +601,16 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                         {
                             data.SessionName = textField!.text ?? data.SessionName
                         }
+                        
+                        DispatchQueue.main.async(execute: {
+                            self.wbView.isHidden = true
+                            self.btnStop.isHidden = true
+                            self.lblDuration.isHidden = true
+                            self.vwBottomBar.isHidden = true
+                            self.lblLoadingSession.text = "SAVING SESSION... PLEASE DO NOT TURN OFF YOUR ANTENNA."
+                            self.lblLoadingSession.isHidden = false
+                            
+                        })
                         
                         DAL.SaveSessionData(data)
                         APIHelper.StopSession(self)

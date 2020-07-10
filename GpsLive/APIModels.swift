@@ -17,6 +17,11 @@ class SyncModel
     var Devices: [NewLive_Devices] = []
     var Parameters: [ParameterInfo] = []
     var SessionTypes: [SessionType_DTO] = []
+    var Team_HRThreshold: [Team_HRThreshold] = []
+    var Team_SpeedThreshold: [Team_SpeedThreshold] = []
+    var TeamID : Int32 = 0
+    var Date : String = ""
+    var Time : String = ""
 }
 
 class SessionType_DTO
@@ -67,6 +72,60 @@ class TeamInfo
     var Logo : Int32 = 0
     var SpeedThresholdsPercentage : Bool = false
     
+}
+
+class Team_HRThreshold
+{
+    var Team_ID : Int32 = 0
+    var A0_Val : Double  = 0.0
+    var A1_Val : Double = 0.0
+    var A1_Enable : Bool = false
+    var A2_Val : Double = 0.0
+    var A2_Enable : Bool = false
+    var A3_Val : Double = 0.0
+    var A3_Enable : Bool = false
+    var A4_Val : Double = 0.0
+    var A4_Enable : Bool = false
+    var A5_Val : Double = 0.0
+    var A5_Enable : Bool = false
+    var A6_Val : Double = 0.0
+    var A6_Enable : Bool = false
+    var A7_Val : Double = 0.0
+    var A7_Enable : Bool = false
+    var A8_Val : Double = 0.0
+    var A8_Enable : Bool = false
+    var A9_Val : Double = 0.0
+    var A9_Enable : Bool = false
+    var A10_Val : Double = 0.0
+    var A10_Enable : Bool = false
+    var HighInt_Val : Double = 0.0
+}
+
+class Team_SpeedThreshold
+{
+    var Team_ID : Int32 = 0
+    var A0_Val : Double  = 0.0
+    var A1_Val : Double = 0.0
+    var A1_Enable : Bool = false
+    var A2_Val : Double = 0.0
+    var A2_Enable : Bool = false
+    var A3_Val : Double = 0.0
+    var A3_Enable : Bool = false
+    var A4_Val : Double = 0.0
+    var A4_Enable : Bool = false
+    var A5_Val : Double = 0.0
+    var A5_Enable : Bool = false
+    var A6_Val : Double = 0.0
+    var A6_Enable : Bool = false
+    var A7_Val : Double = 0.0
+    var A7_Enable : Bool = false
+    var A8_Val : Double = 0.0
+    var A8_Enable : Bool = false
+    var A9_Val : Double = 0.0
+    var A9_Enable : Bool = false
+    var A10_Val : Double = 0.0
+    var A10_Enable : Bool = false
+    var HighInt_Val : Double = 0.0
 }
 
 class Live_Parameters_Table

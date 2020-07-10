@@ -11,7 +11,7 @@ import Foundation
 class SharedInfo
 {
     static var ISK50Network = false;
-    static var TeamID: Int32 = 114;
+    static var TeamID: Int32 = 0;
     static var TeamName: String = "";
     static var SessionStart: TimeInterval = TimeInterval();
     

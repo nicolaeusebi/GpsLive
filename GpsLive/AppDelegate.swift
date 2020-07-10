@@ -20,10 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         
         DAL.CheckDatabase()
         
+        
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.requestWhenInUseAuthorization()
         
+        print("didFinishLaunchingWithOptions")
         let wifiSsid = getWiFiSsid()
         if wifiSsid != nil && wifiSsid!.hasPrefix("K-50") {
             SharedInfo.ISK50Network = true; 
@@ -56,6 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
+        print("applicationWillEnterForeground")
         let wifiSsid = getWiFiSsid()
         if wifiSsid != nil && wifiSsid!.hasPrefix("K-50") {
             SharedInfo.ISK50Network = true;

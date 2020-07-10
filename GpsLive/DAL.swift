@@ -38,6 +38,47 @@ class DAL
         }
     }
     
+    static func UpdateDB()
+    {
+        let defaults = UserDefaults.standard
+        let v_1_1 = "db_v_1_1"
+        if let _ = defaults.object(forKey: v_1_1)
+        {
+            
+        }
+        else
+        {
+            //V 1.1
+            ExecuteUpdate("CREATE TABLE \"Team_HRThreshold\" (\"Team_ID\" int(11) PRIMARY KEY NOT NULL,\"A0_Val\" double NOT NULL DEFAULT '0',\"A1_Val\" double DEFAULT NULL,\"A1_Enable\" bit(1) NOT NULL,\"A2_Val\" double DEFAULT NULL,\"A2_Enable\" bit(1) NOT NULL,\"A3_Val\" double DEFAULT NULL,\"A3_Enable\" bit(1) NOT NULL,\"A4_Val\" double DEFAULT NULL,\"A4_Enable\" bit(1) NOT NULL,\"A5_Val\" double DEFAULT NULL,\"A5_Enable\" bit(1) NOT NULL,\"A6_Val\" double DEFAULT NULL,\"A6_Enable\" bit(1) NOT NULL,\"A7_Val\" double DEFAULT NULL,\"A7_Enable\" bit(1) NOT NULL,\"A8_Val\" double DEFAULT NULL,\"A8_Enable\" bit(1) NOT NULL,\"A9_Val\" double DEFAULT NULL,\"A9_Enable\" bit(1) NOT NULL,\"A10_Val\" double DEFAULT NULL,\"A10_Enable\" bit(1) NOT NULL,\"HighInt_Val\" double NOT NULL)")
+            ExecuteUpdate("CREATE TABLE \"Team_SpeedThreshold\" (\"Team_ID\" int(11) PRIMARY KEY NOT NULL,\"A0_Val\" double NOT NULL DEFAULT '0',\"A1_Val\" double DEFAULT NULL,\"A1_Enable\" bit(1) NOT NULL,\"A2_Val\" double DEFAULT NULL,\"A2_Enable\" bit(1) NOT NULL,\"A3_Val\" double DEFAULT NULL,\"A3_Enable\" bit(1) NOT NULL,\"A4_Val\" double DEFAULT NULL,\"A4_Enable\" bit(1) NOT NULL,\"A5_Val\" double DEFAULT NULL,\"A5_Enable\" bit(1) NOT NULL,\"A6_Val\" double DEFAULT NULL,\"A6_Enable\" bit(1) NOT NULL,\"A7_Val\" double DEFAULT NULL,\"A7_Enable\" bit(1) NOT NULL,\"A8_Val\" double DEFAULT NULL,\"A8_Enable\" bit(1) NOT NULL,\"A9_Val\" double DEFAULT NULL,\"A9_Enable\" bit(1) NOT NULL,\"A10_Val\" double DEFAULT NULL,\"A10_Enable\" bit(1) NOT NULL,\"HighInt_Val\" double NOT NULL)")
+            defaults.set(true, forKey: v_1_1)
+        }
+        
+        
+    }
+    
+    static func ExecuteUpdate(_ query: String)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            let insertSQL = query
+            
+            let result = contactDB?.executeUpdate(insertSQL,
+                withArgumentsIn: nil)
+            
+            if !result! {
+                print("Error: \(String(describing: contactDB?.lastErrorMessage()))")
+            } else {
+                
+            }
+            contactDB?.close()
+        } else {
+            print("Error: \(String(describing: contactDB?.lastErrorMessage()))")
+        }
+    }
+    
     static func LoadTeams() -> [TeamInfo]
     {
         var teams : [TeamInfo] = [];
@@ -104,6 +145,172 @@ class DAL
         }
     }
     
+    static func LoadTeam_HRThresholdID(Team_ID: Int32) -> [Team_HRThreshold]
+    {
+        var teams : [Team_HRThreshold] = [];
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            let querySQL = "SELECT * FROM Team_HRThreshold where Team_ID = \(Team_ID);"
+            
+            let results:FMResultSet? = contactDB?.executeQuery(querySQL,
+                                                               withArgumentsIn: nil)
+            
+            while (results?.next() == true)
+            {
+                let curr = Team_HRThreshold();
+                curr.Team_ID = results!.int(forColumn: "Team_ID")
+                curr.A0_Val = results!.double(forColumn: "A0_Val")
+                curr.HighInt_Val = results!.double(forColumn: "HighInt_Val")
+                if results!.columnIsNull("A1_Val") == false
+                {
+                    curr.A1_Val = results!.double(forColumn: "A1_Val")
+                }
+                if results!.columnIsNull("A2_Val") == false
+                {
+                    curr.A2_Val = results!.double(forColumn: "A2_Val")
+                }
+                if results!.columnIsNull("A3_Val") == false
+                {
+                    curr.A3_Val = results!.double(forColumn: "A3_Val")
+                }
+                if results!.columnIsNull("A4_Val") == false
+                {
+                    curr.A4_Val = results!.double(forColumn: "A4_Val")
+                }
+                if results!.columnIsNull("A5_Val") == false
+                {
+                    curr.A5_Val = results!.double(forColumn: "A5_Val")
+                }
+                if results!.columnIsNull("A6_Val") == false
+                {
+                    curr.A6_Val = results!.double(forColumn: "A6_Val")
+                }
+                if results!.columnIsNull("A7_Val") == false
+                {
+                    curr.A7_Val = results!.double(forColumn: "A7_Val")
+                }
+                if results!.columnIsNull("A8_Val") == false
+                {
+                    curr.A8_Val = results!.double(forColumn: "A8_Val")
+                }
+                if results!.columnIsNull("A9_Val") == false
+                {
+                    curr.A9_Val = results!.double(forColumn: "A9_Val")
+                }
+                if results!.columnIsNull("A10_Val") == false
+                {
+                    curr.A10_Val = results!.double(forColumn: "A10_Val")
+                }
+                
+                
+                curr.A1_Enable = results!.bool(forColumn: "A1_Enable")
+                curr.A2_Enable = results!.bool(forColumn: "A2_Enable")
+                curr.A3_Enable = results!.bool(forColumn: "A3_Enable")
+                curr.A4_Enable = results!.bool(forColumn: "A4_Enable")
+                curr.A5_Enable = results!.bool(forColumn: "A5_Enable")
+                curr.A6_Enable = results!.bool(forColumn: "A6_Enable")
+                curr.A7_Enable = results!.bool(forColumn: "A7_Enable")
+                curr.A8_Enable = results!.bool(forColumn: "A8_Enable")
+                curr.A9_Enable = results!.bool(forColumn: "A9_Enable")
+                curr.A10_Enable = results!.bool(forColumn: "A10_Enable")
+                
+                teams.append(curr)
+            }
+
+            contactDB?.close()
+            
+            return teams;
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+            return [];
+        }
+    }
+    
+    static func LoadTeam_SpeedThresholdID(Team_ID: Int32) -> [Team_SpeedThreshold]
+    {
+        var teams : [Team_SpeedThreshold] = [];
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            let querySQL = "SELECT * FROM Team_SpeedThreshold where Team_ID = \(Team_ID);"
+            
+            let results:FMResultSet? = contactDB?.executeQuery(querySQL,
+                                                               withArgumentsIn: nil)
+            
+            while (results?.next() == true)
+            {
+                let curr = Team_SpeedThreshold();
+                curr.Team_ID = results!.int(forColumn: "Team_ID")
+                curr.A0_Val = results!.double(forColumn: "A0_Val")
+                curr.HighInt_Val = results!.double(forColumn: "HighInt_Val")
+                if results!.columnIsNull("A1_Val") == false
+                {
+                    curr.A1_Val = results!.double(forColumn: "A1_Val")
+                }
+                if results!.columnIsNull("A2_Val") == false
+                {
+                    curr.A2_Val = results!.double(forColumn: "A2_Val")
+                }
+                if results!.columnIsNull("A3_Val") == false
+                {
+                    curr.A3_Val = results!.double(forColumn: "A3_Val")
+                }
+                if results!.columnIsNull("A4_Val") == false
+                {
+                    curr.A4_Val = results!.double(forColumn: "A4_Val")
+                }
+                if results!.columnIsNull("A5_Val") == false
+                {
+                    curr.A5_Val = results!.double(forColumn: "A5_Val")
+                }
+                if results!.columnIsNull("A6_Val") == false
+                {
+                    curr.A6_Val = results!.double(forColumn: "A6_Val")
+                }
+                if results!.columnIsNull("A7_Val") == false
+                {
+                    curr.A7_Val = results!.double(forColumn: "A7_Val")
+                }
+                if results!.columnIsNull("A8_Val") == false
+                {
+                    curr.A8_Val = results!.double(forColumn: "A8_Val")
+                }
+                if results!.columnIsNull("A9_Val") == false
+                {
+                    curr.A9_Val = results!.double(forColumn: "A9_Val")
+                }
+                if results!.columnIsNull("A10_Val") == false
+                {
+                    curr.A10_Val = results!.double(forColumn: "A10_Val")
+                }
+                
+                
+                curr.A1_Enable = results!.bool(forColumn: "A1_Enable")
+                curr.A2_Enable = results!.bool(forColumn: "A2_Enable")
+                curr.A3_Enable = results!.bool(forColumn: "A3_Enable")
+                curr.A4_Enable = results!.bool(forColumn: "A4_Enable")
+                curr.A5_Enable = results!.bool(forColumn: "A5_Enable")
+                curr.A6_Enable = results!.bool(forColumn: "A6_Enable")
+                curr.A7_Enable = results!.bool(forColumn: "A7_Enable")
+                curr.A8_Enable = results!.bool(forColumn: "A8_Enable")
+                curr.A9_Enable = results!.bool(forColumn: "A9_Enable")
+                curr.A10_Enable = results!.bool(forColumn: "A10_Enable")
+                
+                teams.append(curr)
+            }
+
+            contactDB?.close()
+            
+            return teams;
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+            return [];
+        }
+    }
+    
     static func SaveTeamInfo(_ team: TeamInfo)
     {
         
@@ -132,6 +339,96 @@ class DAL
             {
                 
                 let insertSQL = "Update TeamInfo SET Name = '\(team.Name)', LiveType = \(team.LiveType), LiveChannel = \(team.LiveChannel), Logo = \(team.Logo), SpeedThresholdsPercentage = \(NSNumber(value: team.SpeedThresholdsPercentage as Bool)) where Team_ID = \(team.Team_ID);"
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            contactDB?.close()
+            
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+        }
+    }
+    
+    static func SaveTeam_HRThreshold(_ threshold: Team_HRThreshold)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            
+            let loaded = LoadTeam_HRThresholdID(Team_ID: threshold.Team_ID)
+            
+            if loaded.count == 0
+            {
+                
+                let insertSQL = "INSERT INTO Team_HRThreshold ( Team_ID, A0_Val, A1_Val, A2_Val, A3_Val, A4_Val, A5_Val, A6_Val, A7_Val, A8_Val, A9_Val, A10_Val, HighInt_Val, A1_Enable, A2_Enable, A3_Enable, A4_Enable, A5_Enable, A6_Enable, A7_Enable, A8_Enable, A9_Enable, A10_Enable) VALUES (\(threshold.Team_ID),'\(threshold.A0_Val)','\(threshold.A1_Val)','\(threshold.A2_Val)','\(threshold.A3_Val)','\(threshold.A4_Val)','\(threshold.A5_Val)','\(threshold.A6_Val)','\(threshold.A7_Val)','\(threshold.A8_Val)','\(threshold.A9_Val)','\(threshold.A10_Val)','\(threshold.HighInt_Val)','\(NSNumber(value: threshold.A1_Enable as Bool))','\(NSNumber(value: threshold.A2_Enable as Bool))','\(NSNumber(value: threshold.A3_Enable as Bool))','\(NSNumber(value: threshold.A4_Enable as Bool))','\(NSNumber(value: threshold.A5_Enable as Bool))','\(NSNumber(value: threshold.A6_Enable as Bool))','\(NSNumber(value: threshold.A7_Enable as Bool))','\(NSNumber(value: threshold.A8_Enable as Bool))','\(NSNumber(value: threshold.A9_Enable as Bool))','\(NSNumber(value: threshold.A10_Enable as Bool))');"
+                
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            else
+            {
+                
+                let insertSQL = "Update Team_HRThreshold SET A0_Val = '\(threshold.A0_Val)', A1_Val = '\(threshold.A1_Val)', A2_Val = '\(threshold.A2_Val)', A3_Val = '\(threshold.A3_Val)', A4_Val = '\(threshold.A4_Val)', A5_Val = '\(threshold.A5_Val)', A6_Val = '\(threshold.A6_Val)', A7_Val = '\(threshold.A7_Val)', A8_Val = '\(threshold.A8_Val)', A9_Val = '\(threshold.A9_Val)', A10_Val = '\(threshold.A10_Val)', HighInt_Val = '\(threshold.HighInt_Val)', A1_Enable = '\(NSNumber(value: threshold.A1_Enable as Bool))', A2_Enable = '\(NSNumber(value: threshold.A2_Enable as Bool))', A3_Enable = '\(NSNumber(value: threshold.A3_Enable as Bool))', A4_Enable = '\(NSNumber(value: threshold.A4_Enable as Bool))', A5_Enable = '\(NSNumber(value: threshold.A5_Enable as Bool))', A6_Enable = '\(NSNumber(value: threshold.A6_Enable as Bool))', A7_Enable = '\(NSNumber(value: threshold.A7_Enable as Bool))', A8_Enable = '\(NSNumber(value: threshold.A8_Enable as Bool))', A9_Enable = '\(NSNumber(value: threshold.A9_Enable as Bool))', A10_Enable = '\(NSNumber(value: threshold.A10_Enable as Bool))' where Team_ID = \(threshold.Team_ID);"
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            contactDB?.close()
+            
+        } else {
+            print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+        }
+    }
+    
+    static func SaveTeam_SpeedThreshold(_ threshold: Team_SpeedThreshold)
+    {
+        
+        let contactDB = FMDatabase(path: databasePath)
+        
+        if (contactDB?.open())! {
+            
+            let loaded = LoadTeam_SpeedThresholdID(Team_ID: threshold.Team_ID)
+            
+            if loaded.count == 0
+            {
+                
+                let insertSQL = "INSERT INTO Team_SpeedThreshold ( Team_ID, A0_Val, A1_Val, A2_Val, A3_Val, A4_Val, A5_Val, A6_Val, A7_Val, A8_Val, A9_Val, A10_Val, HighInt_Val, A1_Enable, A2_Enable, A3_Enable, A4_Enable, A5_Enable, A6_Enable, A7_Enable, A8_Enable, A9_Enable, A10_Enable) VALUES (\(threshold.Team_ID),'\(threshold.A0_Val)','\(threshold.A1_Val)','\(threshold.A2_Val)','\(threshold.A3_Val)','\(threshold.A4_Val)','\(threshold.A5_Val)','\(threshold.A6_Val)','\(threshold.A7_Val)','\(threshold.A8_Val)','\(threshold.A9_Val)','\(threshold.A10_Val)','\(threshold.HighInt_Val)','\(NSNumber(value: threshold.A1_Enable as Bool))','\(NSNumber(value: threshold.A2_Enable as Bool))','\(NSNumber(value: threshold.A3_Enable as Bool))','\(NSNumber(value: threshold.A4_Enable as Bool))','\(NSNumber(value: threshold.A5_Enable as Bool))','\(NSNumber(value: threshold.A6_Enable as Bool))','\(NSNumber(value: threshold.A7_Enable as Bool))','\(NSNumber(value: threshold.A8_Enable as Bool))','\(NSNumber(value: threshold.A9_Enable as Bool))','\(NSNumber(value: threshold.A10_Enable as Bool))');"
+                
+                
+                let result = contactDB?.executeUpdate(insertSQL,
+                                                      withArgumentsIn: nil)
+                if !result! {
+                    print("Error: \(contactDB?.lastErrorMessage() ?? "")")
+                } else {
+                    
+                }
+                
+            }
+            else
+            {
+                
+                let insertSQL = "Update Team_SpeedThreshold SET A0_Val = '\(threshold.A0_Val)', A1_Val = '\(threshold.A1_Val)', A2_Val = '\(threshold.A2_Val)', A3_Val = '\(threshold.A3_Val)', A4_Val = '\(threshold.A4_Val)', A5_Val = '\(threshold.A5_Val)', A6_Val = '\(threshold.A6_Val)', A7_Val = '\(threshold.A7_Val)', A8_Val = '\(threshold.A8_Val)', A9_Val = '\(threshold.A9_Val)', A10_Val = '\(threshold.A10_Val)', HighInt_Val = '\(threshold.HighInt_Val)', A1_Enable = '\(NSNumber(value: threshold.A1_Enable as Bool))', A2_Enable = '\(NSNumber(value: threshold.A2_Enable as Bool))', A3_Enable = '\(NSNumber(value: threshold.A3_Enable as Bool))', A4_Enable = '\(NSNumber(value: threshold.A4_Enable as Bool))', A5_Enable = '\(NSNumber(value: threshold.A5_Enable as Bool))', A6_Enable = '\(NSNumber(value: threshold.A6_Enable as Bool))', A7_Enable = '\(NSNumber(value: threshold.A7_Enable as Bool))', A8_Enable = '\(NSNumber(value: threshold.A8_Enable as Bool))', A9_Enable = '\(NSNumber(value: threshold.A9_Enable as Bool))', A10_Enable = '\(NSNumber(value: threshold.A10_Enable as Bool))' where Team_ID = \(threshold.Team_ID);"
                 
                 let result = contactDB?.executeUpdate(insertSQL,
                                                       withArgumentsIn: nil)

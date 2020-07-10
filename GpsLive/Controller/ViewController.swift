@@ -107,6 +107,14 @@ class ViewController: UIViewController, SyncDelegate, WKNavigationDelegate {
         }
     }
     
+    func GetTeamHrThresholdsCompleted(success: Bool, data: [Team_HRThreshold]) {
+        
+    }
+    
+    func GetTeamSpeedThresholdsCompleted(success: Bool, data: [Team_SpeedThreshold]) {
+        
+    }
+    
     func SyncTeamCompleted(success: Bool, data: String?)
     {
         
