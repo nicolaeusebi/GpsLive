@@ -39,7 +39,7 @@ class LoginController: UIViewController, AuthDelegate {
                 SharedInfo.setPassword(self.txtPassword.text!)
                 if self.parentController != nil
                 {
-                    self.parentController?.StartFetchData()
+                    self.parentController?.handleAppear()//.StartFetchData()
                 }
                 self.dismiss(animated: true, completion: nil)
             }

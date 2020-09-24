@@ -728,6 +728,10 @@ class APIHelper
                                 let curr = NewLive_Devices();
                                 curr.TeamID = userData["TeamID"] as! Int32
                                 curr.DeviceID = userData["DeviceID"] as! Int32
+                                if userData["Mac"] as? String != nil {
+                                    curr.Mac = userData["Mac"] as! String
+                                }
+                                
                                 res.append(curr)
                             }
                             
@@ -775,6 +779,7 @@ class APIHelper
                 do {
                     if data != nil
                     {
+                        let str = String(decoding: data!, as: UTF8.self)
                         let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:AnyObject]
                         
                         let result = json["result"] as? String

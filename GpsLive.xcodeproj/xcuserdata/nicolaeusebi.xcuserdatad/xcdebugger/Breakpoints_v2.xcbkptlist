@@ -51,8 +51,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -68,8 +68,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -85,8 +85,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "CheckLogin(_:username:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -119,8 +119,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
             endingLineNumber = "114"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionTypes(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -136,8 +136,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "137"
             endingLineNumber = "137"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetSessionTypes(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -221,8 +221,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "CheckDatabase()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -236,10 +236,10 @@
             timestampString = "580146774.851297"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "LoadTeams()"
-            landmarkType = "7">
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -253,10 +253,10 @@
             timestampString = "580146774.851561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "490"
-            endingLineNumber = "490"
-            landmarkName = "LoadSessionTypeByTeamID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "501"
+            endingLineNumber = "501"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -270,10 +270,10 @@
             timestampString = "580146774.851807"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "LoadTeamByID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -287,10 +287,10 @@
             timestampString = "580146774.852064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "LoadTeamByID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -304,10 +304,10 @@
             timestampString = "580146774.852321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "LoadTeamByID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -321,10 +321,10 @@
             timestampString = "580146774.8525749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "351"
-            endingLineNumber = "351"
-            landmarkName = "SaveTeamInfo(_:)"
-            landmarkType = "7">
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -338,10 +338,10 @@
             timestampString = "580146774.852823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "503"
-            endingLineNumber = "503"
-            landmarkName = "LoadSessionTypeByTeamID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "514"
+            endingLineNumber = "514"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -355,10 +355,10 @@
             timestampString = "580146774.8530689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "517"
-            endingLineNumber = "517"
-            landmarkName = "LoadSessionTypeByTeamID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "528"
+            endingLineNumber = "528"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -372,10 +372,10 @@
             timestampString = "580146774.853322"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "771"
-            endingLineNumber = "771"
-            landmarkName = "LoadParameterInfoByID(ID_Parameter:)"
-            landmarkType = "7">
+            startingLineNumber = "782"
+            endingLineNumber = "782"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -389,10 +389,10 @@
             timestampString = "580146774.853588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "864"
-            endingLineNumber = "864"
-            landmarkName = "LoadParameterInfoByTeamID(TeamID:)"
-            landmarkType = "7">
+            startingLineNumber = "875"
+            endingLineNumber = "875"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -406,10 +406,10 @@
             timestampString = "580146774.853834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "878"
-            endingLineNumber = "878"
-            landmarkName = "DAL"
-            landmarkType = "3">
+            startingLineNumber = "889"
+            endingLineNumber = "889"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -423,10 +423,10 @@
             timestampString = "580146774.854081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "842"
-            endingLineNumber = "842"
-            landmarkName = "LoadParameterInfoByTeamID(TeamID:)"
-            landmarkType = "7">
+            startingLineNumber = "853"
+            endingLineNumber = "853"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -440,10 +440,10 @@
             timestampString = "580146774.854331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "LoadTeams()"
-            landmarkType = "7">
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -457,10 +457,10 @@
             timestampString = "580146774.854574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1012"
-            endingLineNumber = "1012"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1023"
+            endingLineNumber = "1023"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -474,10 +474,10 @@
             timestampString = "580146774.854841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1269"
-            endingLineNumber = "1269"
-            landmarkName = "DeleteLive_Parameters_Totals(ID_Team:)"
-            landmarkType = "7">
+            startingLineNumber = "1280"
+            endingLineNumber = "1280"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -491,13 +491,13 @@
             timestampString = "580146774.855113"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1255"
-            endingLineNumber = "1255"
-            landmarkName = "DeleteLive_Parameters_Totals(ID_Team:)"
-            landmarkType = "7">
+            startingLineNumber = "1266"
+            endingLineNumber = "1266"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "139DCC48-570A-47D4-9CE4-F02E919A1540 - 586b44970f303f4d"
+                  uuid = "139DCC48-570A-47D4-9CE4-F02E919A1540 - b0b2861f4cb688c4"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -512,7 +512,7 @@
                   offsetFromSymbolStart = "383">
                </Location>
                <Location
-                  uuid = "139DCC48-570A-47D4-9CE4-F02E919A1540 - 586b44970f303f4d"
+                  uuid = "139DCC48-570A-47D4-9CE4-F02E919A1540 - b0b2861f4cb688c4"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -540,10 +540,10 @@
             timestampString = "580146774.8554029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1416"
-            endingLineNumber = "1416"
-            landmarkName = "LoadNewLive_DevicesByTeam(ID_Team:)"
-            landmarkType = "7">
+            startingLineNumber = "1430"
+            endingLineNumber = "1430"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -557,13 +557,13 @@
             timestampString = "580146774.855667"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1432"
-            endingLineNumber = "1432"
-            landmarkName = "DeleteTeamDevices(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1446"
+            endingLineNumber = "1446"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "F2AC890E-2709-46C6-826E-9CEDFA10535B - 98a1b17b38e8e9b7"
+                  uuid = "F2AC890E-2709-46C6-826E-9CEDFA10535B - 707873f37b6e7730"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -578,7 +578,7 @@
                   offsetFromSymbolStart = "383">
                </Location>
                <Location
-                  uuid = "F2AC890E-2709-46C6-826E-9CEDFA10535B - 98a1b17b38e8e9b7"
+                  uuid = "F2AC890E-2709-46C6-826E-9CEDFA10535B - 707873f37b6e7730"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -606,10 +606,10 @@
             timestampString = "580146774.855943"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1330"
-            endingLineNumber = "1330"
-            landmarkName = "Save_Total_Live_Parameters_Table(_:)"
-            landmarkType = "7">
+            startingLineNumber = "1341"
+            endingLineNumber = "1341"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -623,10 +623,10 @@
             timestampString = "580146774.856208"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1353"
-            endingLineNumber = "1353"
-            landmarkName = "Save_Total_Live_Parameters_Table(_:)"
-            landmarkType = "7">
+            startingLineNumber = "1364"
+            endingLineNumber = "1364"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -640,10 +640,10 @@
             timestampString = "580146774.856459"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1445"
-            endingLineNumber = "1445"
-            landmarkName = "DeleteTeamDevices(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1459"
+            endingLineNumber = "1459"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -693,8 +693,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -710,8 +710,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "getWiFiSsid()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -759,10 +759,10 @@
             timestampString = "588675576.744993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "779"
-            endingLineNumber = "779"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "784"
+            endingLineNumber = "784"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -827,10 +827,10 @@
             timestampString = "588675576.745471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "817"
-            endingLineNumber = "817"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "822"
+            endingLineNumber = "822"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -844,10 +844,10 @@
             timestampString = "588675576.745911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "803"
-            endingLineNumber = "803"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "808"
+            endingLineNumber = "808"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -861,10 +861,10 @@
             timestampString = "588675576.74635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "824"
-            endingLineNumber = "824"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "829"
+            endingLineNumber = "829"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -878,10 +878,10 @@
             timestampString = "588675576.74678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "797"
-            endingLineNumber = "797"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "802"
+            endingLineNumber = "802"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -895,10 +895,10 @@
             timestampString = "588675576.7472171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "796"
-            endingLineNumber = "796"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "801"
+            endingLineNumber = "801"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -929,10 +929,10 @@
             timestampString = "588675576.747663"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "835"
-            endingLineNumber = "835"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "840"
+            endingLineNumber = "840"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -946,10 +946,10 @@
             timestampString = "588675576.748094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "815"
-            endingLineNumber = "815"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "820"
+            endingLineNumber = "820"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -965,8 +965,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "581"
             endingLineNumber = "581"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -982,8 +982,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "604"
             endingLineNumber = "604"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -999,8 +999,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "583"
             endingLineNumber = "583"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1014,10 +1014,10 @@
             timestampString = "588675576.7498029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "741"
-            endingLineNumber = "741"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "745"
+            endingLineNumber = "745"
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1033,8 +1033,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "720"
             endingLineNumber = "720"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1050,8 +1050,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "674"
             endingLineNumber = "674"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTotalLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1067,8 +1067,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "653"
             endingLineNumber = "653"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTotalLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1082,8 +1082,8 @@
             timestampString = "588675429.5068409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "421"
-            endingLineNumber = "421"
+            startingLineNumber = "454"
+            endingLineNumber = "454"
             landmarkName = "StartStopSessionCompleted(success:start:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1101,8 +1101,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "611"
             endingLineNumber = "611"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1116,8 +1116,8 @@
             timestampString = "588675429.507381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "MainController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1135,8 +1135,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1152,8 +1152,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1169,8 +1169,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
             endingLineNumber = "84"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1186,8 +1186,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "Ping(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1201,8 +1201,8 @@
             timestampString = "588675429.508561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "518"
-            endingLineNumber = "518"
+            startingLineNumber = "552"
+            endingLineNumber = "552"
             landmarkName = "GetPlayersCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1218,10 +1218,10 @@
             timestampString = "580146774.863551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1022"
-            endingLineNumber = "1022"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1033"
+            endingLineNumber = "1033"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1235,10 +1235,10 @@
             timestampString = "580146774.8638411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "957"
-            endingLineNumber = "957"
-            landmarkName = "LoadPlayerInfoByID(ID:)"
-            landmarkType = "7">
+            startingLineNumber = "968"
+            endingLineNumber = "968"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1252,10 +1252,10 @@
             timestampString = "580146774.864099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1002"
-            endingLineNumber = "1002"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1013"
+            endingLineNumber = "1013"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1269,10 +1269,10 @@
             timestampString = "580146774.864341"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "997"
-            endingLineNumber = "997"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1008"
+            endingLineNumber = "1008"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1286,10 +1286,10 @@
             timestampString = "580146774.864585"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1381"
-            endingLineNumber = "1381"
-            landmarkName = "LoadNewLive_DevicesID(ID_Team:DeviceID:)"
-            landmarkType = "7">
+            startingLineNumber = "1392"
+            endingLineNumber = "1392"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1303,10 +1303,10 @@
             timestampString = "580146774.864834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1044"
-            endingLineNumber = "1044"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1055"
+            endingLineNumber = "1055"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1320,10 +1320,10 @@
             timestampString = "580146774.865082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1030"
-            endingLineNumber = "1030"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1041"
+            endingLineNumber = "1041"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1337,10 +1337,10 @@
             timestampString = "580146774.865329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1033"
-            endingLineNumber = "1033"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1044"
+            endingLineNumber = "1044"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1354,10 +1354,10 @@
             timestampString = "580146774.865618"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1047"
-            endingLineNumber = "1047"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1058"
+            endingLineNumber = "1058"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1371,10 +1371,10 @@
             timestampString = "580146774.866007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1056"
-            endingLineNumber = "1056"
-            landmarkName = "SavePlayerInfo(_:)"
-            landmarkType = "7">
+            startingLineNumber = "1067"
+            endingLineNumber = "1067"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1388,10 +1388,10 @@
             timestampString = "580146774.866273"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "900"
-            endingLineNumber = "900"
-            landmarkName = "SaveParameterInfo(_:)"
-            landmarkType = "7">
+            startingLineNumber = "911"
+            endingLineNumber = "911"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1422,10 +1422,10 @@
             timestampString = "580146774.866569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1032"
-            endingLineNumber = "1032"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1043"
+            endingLineNumber = "1043"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1441,8 +1441,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "263"
             endingLineNumber = "263"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetPlayers(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1456,44 +1456,10 @@
             timestampString = "588675429.50916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "556"
-            endingLineNumber = "556"
+            startingLineNumber = "637"
+            endingLineNumber = "637"
             landmarkName = "GetLiveDevicesCompleted(success:data:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "35B7D75C-8E8A-47B1-AECA-D49C2F841F72 - 75f0c6332f34897d"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GpsLive.MainController.GetLiveDevicesCompleted(success: Swift.Bool, data: Swift.Array&lt;GpsLive.NewLive_Devices&gt;) -&gt; ()"
-                  moduleName = "GpsLive"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nicolaeusebi/Documents/GpsLive/GpsLive/Controller/MainController.swift"
-                  timestampString = "564665842.054284"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "325"
-                  endingLineNumber = "325"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "35B7D75C-8E8A-47B1-AECA-D49C2F841F72 - 897ba6012ff6bf44"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in GpsLive.MainController.GetLiveDevicesCompleted(success: Swift.Bool, data: Swift.Array&lt;GpsLive.NewLive_Devices&gt;) -&gt; ()"
-                  moduleName = "GpsLive"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nicolaeusebi/Documents/GpsLive/GpsLive/Controller/MainController.swift"
-                  timestampString = "564665842.056206"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "326"
-                  endingLineNumber = "326"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1507,8 +1473,8 @@
             timestampString = "588675429.509425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "521"
-            endingLineNumber = "521"
+            startingLineNumber = "555"
+            endingLineNumber = "555"
             landmarkName = "GetPlayersCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1524,8 +1490,8 @@
             timestampString = "588675429.509733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "531"
-            endingLineNumber = "531"
+            startingLineNumber = "612"
+            endingLineNumber = "612"
             landmarkName = "GetLiveParametersCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1541,8 +1507,8 @@
             timestampString = "588675429.509984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "535"
-            endingLineNumber = "535"
+            startingLineNumber = "616"
+            endingLineNumber = "616"
             landmarkName = "GetLiveParametersCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1558,8 +1524,8 @@
             timestampString = "588675429.510235"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "553"
-            endingLineNumber = "553"
+            startingLineNumber = "634"
+            endingLineNumber = "634"
             landmarkName = "GetLiveDevicesCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1577,8 +1543,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "543"
             endingLineNumber = "543"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeamSpeedThresholds(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1594,8 +1560,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "518"
             endingLineNumber = "518"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeamSpeedThresholds(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1611,8 +1577,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "541"
             endingLineNumber = "541"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeamSpeedThresholds(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1626,13 +1592,13 @@
             timestampString = "588675429.511178"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "580"
-            endingLineNumber = "580"
+            startingLineNumber = "661"
+            endingLineNumber = "661"
             landmarkName = "SyncTeamCompleted(success:data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "EF95E454-1A0A-4CB5-A5BF-8169ED002825 - 7073f5bd1808b5f5"
+                  uuid = "EF95E454-1A0A-4CB5-A5BF-8169ED002825 - d1e84882de87dc9b"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1648,7 +1614,7 @@
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "EF95E454-1A0A-4CB5-A5BF-8169ED002825 - 78022ad1857a7e02"
+                  uuid = "EF95E454-1A0A-4CB5-A5BF-8169ED002825 - d99997ee43f5174d"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1677,8 +1643,8 @@
             timestampString = "588675429.511427"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "234"
-            endingLineNumber = "234"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "btnPlayBig(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1694,8 +1660,8 @@
             timestampString = "588675429.511673"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "427"
-            endingLineNumber = "427"
+            startingLineNumber = "460"
+            endingLineNumber = "460"
             landmarkName = "StartStopSessionCompleted(success:start:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1713,8 +1679,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "334"
             endingLineNumber = "334"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1728,10 +1694,10 @@
             timestampString = "580146774.870414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1046"
-            endingLineNumber = "1046"
-            landmarkName = "LoadPlayerInfoByTeamID(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1057"
+            endingLineNumber = "1057"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1745,8 +1711,8 @@
             timestampString = "588675429.512162"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "502"
-            endingLineNumber = "502"
+            startingLineNumber = "536"
+            endingLineNumber = "536"
             landmarkName = "GetSessionTypesCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1762,10 +1728,10 @@
             timestampString = "580146774.871004"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "516"
-            endingLineNumber = "516"
-            landmarkName = "LoadSessionTypeByTeamID(Team_ID:)"
-            landmarkType = "7">
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1779,13 +1745,13 @@
             timestampString = "588675576.756027"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "799"
-            endingLineNumber = "799"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "804"
+            endingLineNumber = "804"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "86525713-551E-4705-B483-936A3C33FB8C - 79142ead02dc93d"
+                  uuid = "86525713-551E-4705-B483-936A3C33FB8C - cf9846f8b0cbf4be"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1800,7 +1766,7 @@
                   offsetFromSymbolStart = "1948">
                </Location>
                <Location
-                  uuid = "86525713-551E-4705-B483-936A3C33FB8C - 79142ead02dc93d"
+                  uuid = "86525713-551E-4705-B483-936A3C33FB8C - cf9846f8b0cbf4be"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1828,10 +1794,10 @@
             timestampString = "588675576.756472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "871"
-            endingLineNumber = "871"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "876"
+            endingLineNumber = "876"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1845,10 +1811,10 @@
             timestampString = "588675576.756902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "848"
-            endingLineNumber = "848"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "853"
+            endingLineNumber = "853"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1862,10 +1828,10 @@
             timestampString = "588675576.757336"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "850"
-            endingLineNumber = "850"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "855"
+            endingLineNumber = "855"
+            landmarkName = "StartSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1879,8 +1845,8 @@
             timestampString = "588675429.5133539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "588"
-            endingLineNumber = "588"
+            startingLineNumber = "669"
+            endingLineNumber = "669"
             landmarkName = "GetSessionDataCompleted(success:data:canLoad:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1896,10 +1862,10 @@
             timestampString = "580146774.873245"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "562"
-            endingLineNumber = "562"
-            landmarkName = "SaveSessionType(_:)"
-            landmarkType = "7">
+            startingLineNumber = "573"
+            endingLineNumber = "573"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1913,10 +1879,10 @@
             timestampString = "580146774.873896"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "602"
-            endingLineNumber = "602"
-            landmarkName = "SaveSessionData(_:)"
-            landmarkType = "7">
+            startingLineNumber = "613"
+            endingLineNumber = "613"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1930,10 +1896,10 @@
             timestampString = "580146774.874346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "618"
-            endingLineNumber = "618"
-            landmarkName = "SaveSessionData(_:)"
-            landmarkType = "7">
+            startingLineNumber = "629"
+            endingLineNumber = "629"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1947,10 +1913,10 @@
             timestampString = "580146774.874595"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "637"
-            endingLineNumber = "637"
-            landmarkName = "SaveSessionData(_:)"
-            landmarkType = "7">
+            startingLineNumber = "648"
+            endingLineNumber = "648"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1964,10 +1930,10 @@
             timestampString = "588675576.75781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1030"
-            endingLineNumber = "1030"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1035"
+            endingLineNumber = "1035"
+            landmarkName = "StopSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1981,10 +1947,10 @@
             timestampString = "588675576.758238"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1064"
-            endingLineNumber = "1064"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1069"
+            endingLineNumber = "1069"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1998,10 +1964,10 @@
             timestampString = "588675576.758659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1069"
-            endingLineNumber = "1069"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1074"
+            endingLineNumber = "1074"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2015,10 +1981,10 @@
             timestampString = "588675576.759082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1072"
-            endingLineNumber = "1072"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1077"
+            endingLineNumber = "1077"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2032,10 +1998,10 @@
             timestampString = "588675576.759506"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1041"
-            endingLineNumber = "1041"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1046"
+            endingLineNumber = "1046"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2049,10 +2015,10 @@
             timestampString = "588675576.7599241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1047"
-            endingLineNumber = "1047"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1052"
+            endingLineNumber = "1052"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2066,10 +2032,10 @@
             timestampString = "580146774.876531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "542"
-            endingLineNumber = "542"
-            landmarkName = "SaveSessionType(_:)"
-            landmarkType = "7">
+            startingLineNumber = "553"
+            endingLineNumber = "553"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2083,8 +2049,8 @@
             timestampString = "588675429.5150369"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
+            startingLineNumber = "521"
+            endingLineNumber = "521"
             landmarkName = "GetTeamCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2100,8 +2066,8 @@
             timestampString = "588675429.515283"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "361"
-            endingLineNumber = "361"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
             landmarkName = "teamSelected()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2117,8 +2083,8 @@
             timestampString = "588675429.515528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "659"
-            endingLineNumber = "659"
+            startingLineNumber = "740"
+            endingLineNumber = "740"
             landmarkName = "CreateSessionCompleted(success:message:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2134,13 +2100,13 @@
             timestampString = "588675429.515771"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "656"
-            endingLineNumber = "656"
+            startingLineNumber = "737"
+            endingLineNumber = "737"
             landmarkName = "CreateSessionCompleted(success:message:data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "D0AB05DD-2987-45C3-A00E-8C1DA20F6027 - f3f55b74635b0b24"
+                  uuid = "D0AB05DD-2987-45C3-A00E-8C1DA20F6027 - 526ee64ba5d46b27"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2156,7 +2122,7 @@
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
-                  uuid = "D0AB05DD-2987-45C3-A00E-8C1DA20F6027 - 60caafc62899bc08"
+                  uuid = "D0AB05DD-2987-45C3-A00E-8C1DA20F6027 - c15112f9ee16dc6c"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2202,10 +2168,10 @@
             timestampString = "588675576.7606651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "SettingsController"
-            landmarkType = "3">
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "StartSyncData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2219,8 +2185,8 @@
             timestampString = "588675429.516477"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "btnSettingsTouched(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2310,7 +2276,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "99406619-319A-4856-B8CF-6979B925127F - f9e873cb7775124e"
+                  uuid = "99406619-319A-4856-B8CF-6979B925127F - 93ccc14ea85152c6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2322,10 +2288,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "248"
                   endingLineNumber = "248"
-                  offsetFromSymbolStart = "636">
+                  offsetFromSymbolStart = "668">
                </Location>
                <Location
-                  uuid = "99406619-319A-4856-B8CF-6979B925127F - f4b22ac5ac47d98b"
+                  uuid = "99406619-319A-4856-B8CF-6979B925127F - 9e96984073639922"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2337,7 +2303,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "249"
                   endingLineNumber = "249"
-                  offsetFromSymbolStart = "112">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2376,7 +2342,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "DDA5B3B8-04BB-4478-94D7-FF4F84272CA4 - f9e873cb7775124e"
+                  uuid = "DDA5B3B8-04BB-4478-94D7-FF4F84272CA4 - 93ccc14ea851520c"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2392,7 +2358,7 @@
                   offsetFromSymbolStart = "464">
                </Location>
                <Location
-                  uuid = "DDA5B3B8-04BB-4478-94D7-FF4F84272CA4 - 130ca28d8d693c38"
+                  uuid = "DDA5B3B8-04BB-4478-94D7-FF4F84272CA4 - 79281008524d7dc6"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2444,7 +2410,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 130ca28d8d693c38"
+                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 79281008524d7c5b"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2460,7 +2426,7 @@
                   offsetFromSymbolStart = "576">
                </Location>
                <Location
-                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 130ca28d8d693c38"
+                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 79281008524d7c5b"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2476,7 +2442,7 @@
                   offsetFromSymbolStart = "912">
                </Location>
                <Location
-                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 130ca28d8d693c38"
+                  uuid = "4EC5A92F-5683-4029-A3FD-7F3C276D0041 - 79281008524d7c5b"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2528,7 +2494,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "8A07A346-0DAE-4457-88D2-23CB660E8B86 - 97c1bc22b303ba82"
+                  uuid = "8A07A346-0DAE-4457-88D2-23CB660E8B86 - 7bebf49da0b2db59"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2540,10 +2506,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "331"
                   endingLineNumber = "331"
-                  offsetFromSymbolStart = "400">
+                  offsetFromSymbolStart = "284">
                </Location>
                <Location
-                  uuid = "8A07A346-0DAE-4457-88D2-23CB660E8B86 - 409823b7a6ca96ed"
+                  uuid = "8A07A346-0DAE-4457-88D2-23CB660E8B86 - acb26b08b57bf0f8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2555,7 +2521,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "333"
                   endingLineNumber = "333"
-                  offsetFromSymbolStart = "440">
+                  offsetFromSymbolStart = "536">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2666,7 +2632,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "21149E4C-FE26-4C34-9AD1-5F5331432417"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/Controller/SettingsController.swift"
@@ -2699,23 +2665,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F7757E75-B99A-4E2B-871A-7C0BB49B9E62"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GpsLive/Controller/SettingsController.swift"
-            timestampString = "588675576.761911"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "startUpdate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F5F8B97A-6814-4812-8B83-D465B91D1649"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -2724,8 +2673,8 @@
             timestampString = "588675576.762125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "fileproviderProgress(_:operation:progress:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2741,8 +2690,8 @@
             timestampString = "588675576.762344"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
             landmarkName = "fileproviderFailed(_:operation:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2758,8 +2707,8 @@
             timestampString = "588675576.762561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "fileproviderSucceed(_:operation:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2775,10 +2724,10 @@
             timestampString = "588675576.762777"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
-            landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
-            landmarkType = "7">
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "SettingsController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2792,13 +2741,13 @@
             timestampString = "588675576.762993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
             landmarkName = "SyncTeamCompleted(success:data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "158CF50F-C15E-4089-94AE-55480F55F2DB - 7e87174db2b13981"
+                  uuid = "158CF50F-C15E-4089-94AE-55480F55F2DB - bb0c07fdb2c3b15"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2814,7 +2763,7 @@
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "158CF50F-C15E-4089-94AE-55480F55F2DB - fe76e562c9fbbd1d"
+                  uuid = "158CF50F-C15E-4089-94AE-55480F55F2DB - 8b413250a066bf68"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2843,10 +2792,10 @@
             timestampString = "588675576.763207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "790"
-            endingLineNumber = "790"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "795"
+            endingLineNumber = "795"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2860,10 +2809,10 @@
             timestampString = "580146774.879611"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1401"
-            endingLineNumber = "1401"
-            landmarkName = "LoadNewLive_DevicesByTeam(ID_Team:)"
-            landmarkType = "7">
+            startingLineNumber = "1412"
+            endingLineNumber = "1412"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2877,10 +2826,10 @@
             timestampString = "580146774.879925"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1409"
-            endingLineNumber = "1409"
-            landmarkName = "LoadNewLive_DevicesByTeam(ID_Team:)"
-            landmarkType = "7">
+            startingLineNumber = "1420"
+            endingLineNumber = "1420"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2894,8 +2843,8 @@
             timestampString = "588675429.519134"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "552"
-            endingLineNumber = "552"
+            startingLineNumber = "633"
+            endingLineNumber = "633"
             landmarkName = "GetLiveDevicesCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2911,10 +2860,10 @@
             timestampString = "580146774.880484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1429"
-            endingLineNumber = "1429"
-            landmarkName = "DeleteTeamDevices(teamID:)"
-            landmarkType = "7">
+            startingLineNumber = "1443"
+            endingLineNumber = "1443"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2928,10 +2877,10 @@
             timestampString = "580146774.880743"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1391"
-            endingLineNumber = "1391"
-            landmarkName = "LoadNewLive_DevicesID(ID_Team:DeviceID:)"
-            landmarkType = "7">
+            startingLineNumber = "1402"
+            endingLineNumber = "1402"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2945,10 +2894,10 @@
             timestampString = "588675576.763679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1008"
-            endingLineNumber = "1008"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1013"
+            endingLineNumber = "1013"
+            landmarkName = "StopSession(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2962,8 +2911,8 @@
             timestampString = "588675429.519799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2979,8 +2928,8 @@
             timestampString = "588675429.520032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "MainController"
             landmarkType = "3">
          </BreakpointContent>
@@ -2998,8 +2947,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
             endingLineNumber = "76"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "applicationDidBecomeActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3015,8 +2964,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "applicationWillEnterForeground(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3030,8 +2979,8 @@
             timestampString = "588675429.5211999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "handleAppear()"
             landmarkType = "7">
          </BreakpointContent>
@@ -3047,10 +2996,10 @@
             timestampString = "588675576.7651629"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1066"
-            endingLineNumber = "1066"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1071"
+            endingLineNumber = "1071"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3064,8 +3013,8 @@
             timestampString = "588675429.521722"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "369"
-            endingLineNumber = "369"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
             landmarkName = "updateTime()"
             landmarkType = "7">
          </BreakpointContent>
@@ -3081,8 +3030,8 @@
             timestampString = "588675429.52196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "375"
-            endingLineNumber = "375"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
             landmarkName = "updateTime()"
             landmarkType = "7">
          </BreakpointContent>
@@ -3100,8 +3049,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "641"
             endingLineNumber = "641"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTotalLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3115,10 +3064,10 @@
             timestampString = "588675576.766035"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1045"
-            endingLineNumber = "1045"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1050"
+            endingLineNumber = "1050"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3132,8 +3081,8 @@
             timestampString = "588675429.522642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "596"
-            endingLineNumber = "596"
+            startingLineNumber = "677"
+            endingLineNumber = "677"
             landmarkName = "GetSessionDataCompleted(success:data:canLoad:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3149,8 +3098,8 @@
             timestampString = "588675429.522881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
+            startingLineNumber = "456"
+            endingLineNumber = "456"
             landmarkName = "StartStopSessionCompleted(success:start:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3166,8 +3115,8 @@
             timestampString = "588675429.52312"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3183,8 +3132,8 @@
             timestampString = "588675429.523399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
             landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3200,8 +3149,8 @@
             timestampString = "588675429.523636"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
             landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3219,8 +3168,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "678"
             endingLineNumber = "678"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "GetTotalLiveParameters(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3234,8 +3183,8 @@
             timestampString = "588675429.524103"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "540"
-            endingLineNumber = "540"
+            startingLineNumber = "621"
+            endingLineNumber = "621"
             landmarkName = "GetTotalLiveParametersCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3251,8 +3200,8 @@
             timestampString = "588675576.766951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "StartSyncData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -3268,10 +3217,10 @@
             timestampString = "588675576.7671781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "742"
-            endingLineNumber = "742"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "746"
+            endingLineNumber = "746"
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3287,8 +3236,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
             endingLineNumber = "42"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "getWiFiSsid()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3304,8 +3253,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "getWiFiSsid()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3321,8 +3270,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3337,8 +3286,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
-            landmarkName = "UpdateDB()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3351,10 +3300,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "ExecuteUpdate(_:)"
-            landmarkType = "7">
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3367,10 +3316,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "LoadTeams()"
-            landmarkType = "7">
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3383,8 +3332,8 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "565"
-            endingLineNumber = "565"
+            startingLineNumber = "646"
+            endingLineNumber = "646"
             landmarkName = "GetTeamHrThresholdsCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3399,8 +3348,8 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "557"
-            endingLineNumber = "557"
+            startingLineNumber = "638"
+            endingLineNumber = "638"
             landmarkName = "GetLiveDevicesCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3415,13 +3364,13 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "581"
-            endingLineNumber = "581"
+            startingLineNumber = "662"
+            endingLineNumber = "662"
             landmarkName = "SyncTeamCompleted(success:data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F314EC9D-0834-4B21-98C3-765E74FC0FF8 - 7073f5bd1808b5f5"
+                  uuid = "F314EC9D-0834-4B21-98C3-765E74FC0FF8 - d1e84882de87f8e2"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3436,7 +3385,7 @@
                   offsetFromSymbolStart = "203">
                </Location>
                <Location
-                  uuid = "F314EC9D-0834-4B21-98C3-765E74FC0FF8 - 78022ad1857a7e02"
+                  uuid = "F314EC9D-0834-4B21-98C3-765E74FC0FF8 - d99997ee43f5334a"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3463,13 +3412,13 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "573"
-            endingLineNumber = "573"
+            startingLineNumber = "654"
+            endingLineNumber = "654"
             landmarkName = "GetTeamSpeedThresholdsCompleted(success:data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FF4E7EAE-8E88-4143-B71B-A03906E658D1 - 628fcad51b9687b6"
+                  uuid = "FF4E7EAE-8E88-4143-B71B-A03906E658D1 - c31477eadd19c9a9"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3484,7 +3433,7 @@
                   offsetFromSymbolStart = "186">
                </Location>
                <Location
-                  uuid = "FF4E7EAE-8E88-4143-B71B-A03906E658D1 - 3ba79c411547fe99"
+                  uuid = "FF4E7EAE-8E88-4143-B71B-A03906E658D1 - 9a3c217ed3c8b0e9"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3511,10 +3460,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "407"
-            endingLineNumber = "407"
-            landmarkName = "SaveTeam_SpeedThreshold(_:)"
-            landmarkType = "7">
+            startingLineNumber = "418"
+            endingLineNumber = "418"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3527,10 +3476,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "363"
-            endingLineNumber = "363"
-            landmarkName = "SaveTeam_HRThreshold(_:)"
-            landmarkType = "7">
+            startingLineNumber = "374"
+            endingLineNumber = "374"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3543,10 +3492,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "364"
-            endingLineNumber = "364"
-            landmarkName = "SaveTeam_HRThreshold(_:)"
-            landmarkType = "7">
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3559,10 +3508,10 @@
             filePath = "GpsLive/DAL.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "366"
-            endingLineNumber = "366"
-            landmarkName = "SaveTeam_HRThreshold(_:)"
-            landmarkType = "7">
+            startingLineNumber = "377"
+            endingLineNumber = "377"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3575,8 +3524,8 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "570"
-            endingLineNumber = "570"
+            startingLineNumber = "651"
+            endingLineNumber = "651"
             landmarkName = "GetTeamSpeedThresholdsCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3591,8 +3540,8 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "582"
-            endingLineNumber = "582"
+            startingLineNumber = "663"
+            endingLineNumber = "663"
             landmarkName = "SyncTeamCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3607,8 +3556,8 @@
             filePath = "GpsLive/Controller/MainController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "574"
-            endingLineNumber = "574"
+            startingLineNumber = "655"
+            endingLineNumber = "655"
             landmarkName = "GetTeamSpeedThresholdsCompleted(success:data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3623,10 +3572,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1065"
-            endingLineNumber = "1065"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1070"
+            endingLineNumber = "1070"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3639,10 +3588,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "801"
-            endingLineNumber = "801"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "806"
+            endingLineNumber = "806"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3655,10 +3604,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1094"
-            endingLineNumber = "1094"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1099"
+            endingLineNumber = "1099"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3671,10 +3620,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1105"
-            endingLineNumber = "1105"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1110"
+            endingLineNumber = "1110"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3687,10 +3636,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1087"
-            endingLineNumber = "1087"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1092"
+            endingLineNumber = "1092"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3703,10 +3652,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1063"
-            endingLineNumber = "1063"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1068"
+            endingLineNumber = "1068"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3753,8 +3702,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3769,8 +3718,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
             endingLineNumber = "63"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "applicationWillEnterForeground(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3783,10 +3732,10 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1068"
-            endingLineNumber = "1068"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1073"
+            endingLineNumber = "1073"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3799,13 +3748,13 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1081"
-            endingLineNumber = "1081"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1086"
+            endingLineNumber = "1086"
+            landmarkName = "SyncTeam(_:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "2449D79C-9606-440B-922B-9E9737E2264B - e31edd4ef65680b1"
+                  uuid = "2449D79C-9606-440B-922B-9E9737E2264B - 2b17d95c96b09633"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3815,12 +3764,12 @@
                   urlString = "file:///Users/nicolaeusebi/Documents/GpsLive/GpsLive/APIHelper.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1081"
-                  endingLineNumber = "1081"
-                  offsetFromSymbolStart = "3836">
+                  startingLineNumber = "1086"
+                  endingLineNumber = "1086"
+                  offsetFromSymbolStart = "3876">
                </Location>
                <Location
-                  uuid = "2449D79C-9606-440B-922B-9E9737E2264B - 2ebee16d7d69bb9f"
+                  uuid = "2449D79C-9606-440B-922B-9E9737E2264B - e6b7e57f1d8fadbe"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3830,9 +3779,9 @@
                   urlString = "file:///Users/nicolaeusebi/Documents/GpsLive/GpsLive/APIHelper.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1037"
-                  endingLineNumber = "1037"
-                  offsetFromSymbolStart = "172">
+                  startingLineNumber = "1089"
+                  endingLineNumber = "1089"
+                  offsetFromSymbolStart = "144">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3847,26 +3796,26 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "889"
-            endingLineNumber = "889"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "894"
+            endingLineNumber = "894"
+            landmarkName = "StartSessionNew(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1BBB2CCC-6052-4C8D-B76A-1AE1F296CB30"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "948"
-            endingLineNumber = "948"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "953"
+            endingLineNumber = "953"
+            landmarkName = "StartSessionNew(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3879,8 +3828,40 @@
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "929"
-            endingLineNumber = "929"
+            startingLineNumber = "934"
+            endingLineNumber = "934"
+            landmarkName = "StartSessionNew(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBDB1AFE-3396-485D-8CC8-75D3509395F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/APIHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "912"
+            endingLineNumber = "912"
+            landmarkName = "StartSessionNew(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4BB4385-09B1-4EB2-81C9-93E65B85F0A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
@@ -3888,17 +3869,465 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EBDB1AFE-3396-485D-8CC8-75D3509395F2"
+            uuid = "460179C6-D95A-4687-A014-C2BD6CB83BC0"
             shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F2006D-FE10-41D9-96C2-E7C825A75E26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0179FFC2-DF87-400F-A7B7-4BE47D5E1F65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
+            landmarkName = "GetLiveDevicesCompleted(success:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0AEB6FC-38C7-4279-8A88-411BF31F8457"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GpsLive/APIHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "907"
-            endingLineNumber = "907"
+            startingLineNumber = "726"
+            endingLineNumber = "726"
+            landmarkName = "GetLiveDevices(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1042F267-6610-43C7-9DA7-24447B114930"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1486"
+            endingLineNumber = "1486"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4510EE1-6A85-4555-A936-ABF8C5FAA941"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1499"
+            endingLineNumber = "1499"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6800FB40-F6C5-49FC-BD02-6842AAFDA6BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1480"
+            endingLineNumber = "1480"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E881050F-CBCE-418E-B7CD-8DB1229B4D9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1483"
+            endingLineNumber = "1483"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE7BB3B3-E7C4-45BA-B033-33135E43D05D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/APIHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "783"
+            endingLineNumber = "783"
+            landmarkName = "IsSessionActive(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDE36F57-7584-4AE7-9967-34A30E5F6C5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/DAL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1477"
+            endingLineNumber = "1477"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "376C30F7-EC11-45F9-A797-D74ECCF6792B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/LoginController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "CheckLoginCompleted(success:username:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0707154-1E34-4D25-8587-97FE9A0FCBCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "557"
+            endingLineNumber = "557"
+            landmarkName = "GetPlayersCompleted(success:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26BBEF4D-E348-45D5-9FE2-97C50084BBDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "595"
+            endingLineNumber = "595"
+            landmarkName = "downloadImage(url:filename:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28459726-F558-45CB-99B3-1EF11836AFD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "588"
+            endingLineNumber = "588"
+            landmarkName = "downloadImage(url:filename:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBF3772F-D47A-4F92-A96D-512ACE62584B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "571"
+            endingLineNumber = "571"
+            landmarkName = "DownloadImageFromUrl(profilePicture:filename:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FB4D1F5-C1A7-480D-8467-6E1E2F501811"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "setTeamLogo(teamID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A76606F2-CBCF-4487-ADF3-874E6F3A0AAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "387"
+            endingLineNumber = "387"
+            landmarkName = "setTeamLogo(teamID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "716821D3-577D-4990-BB85-10DA6B1D880C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
+            landmarkName = "GetTeamCompleted(success:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30ADA23D-DC4C-4505-A237-50029FB13BBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "IsSessionActiveCompleted(success:active:elapsed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94555405-B0B6-4CF1-AE30-D7329AD43AF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "396"
+            endingLineNumber = "396"
+            landmarkName = "teamSelected()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43439826-B907-43A7-B729-EBAD6765D6AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/MainController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
+            landmarkName = "setTeamLogo(teamID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0EC1886-0254-4430-B020-3F7A19CFF31A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "btnUpdateFirmwareTouched(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFB32CD1-06CB-4789-B608-428F073600E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "btnUpdateFirmwareTouched(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90841B58-3CAA-4506-83AB-8631C7696D89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "fileproviderSucceed(_:operation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C251BE4-A5B8-497C-8814-F7599CA960F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "channel(_:didReadData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BC762A0-4E88-4FF8-94EE-ED08AD099E23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "channel(_:didReadError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A86E9B7-FF9A-4112-BE12-839E15A849FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "channel(_:didReadRawData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8813A23-9A20-4769-B21D-985533DC0E43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "channel(_:didReadRawError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C17C3C94-8178-4DBD-B713-63C2EBC2F6A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GpsLive/Controller/SettingsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "startUpdate()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

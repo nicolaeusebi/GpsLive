@@ -37,9 +37,10 @@
 		80748956217F64DB00810D60 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80748955217F64DB00810D60 /* LoginController.swift */; };
 		807A990B218B28A700028849 /* DrillsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A990A218B28A700028849 /* DrillsController.swift */; };
 		807A990D218B28B300028849 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A990C218B28B300028849 /* TableController.swift */; };
-		807C90E823F2B81700CF9B41 /* v1301_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 807C90E723F2B81600CF9B41 /* v1301_firmware.zip */; };
+		808AC13D251C8165001F9DDC /* v1304_firmware.zip in Resources */ = {isa = PBXBuildFile; fileRef = 808AC13C251C8165001F9DDC /* v1304_firmware.zip */; };
 		80B3148421AFE77B005D39CF /* SelectTeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B3148321AFE77B005D39CF /* SelectTeamController.swift */; };
 		80B3148621AFE7C5005D39CF /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B3148521AFE7C5005D39CF /* TeamCell.swift */; };
+		80B81D1E24D9B48B00DAA0DA /* logoknew.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B81D1924D9B48A00DAA0DA /* logoknew.png */; };
 		80B9CB5B22687F0C002CF9C6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B9CB5622687F0C002CF9C6 /* WebKit.framework */; };
 		80BD24B321E38D7500771CAC /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD24B221E38D7500771CAC /* SettingsController.swift */; };
 		80BD24B421E3A28400771CAC /* FilesProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD24AA21E36FF300771CAC /* FilesProvider.framework */; };
@@ -183,9 +184,10 @@
 		807A9909218B232100028849 /* GpsLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GpsLive.entitlements; sourceTree = "<group>"; };
 		807A990A218B28A700028849 /* DrillsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillsController.swift; sourceTree = "<group>"; };
 		807A990C218B28B300028849 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
-		807C90E723F2B81600CF9B41 /* v1301_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1301_firmware.zip; sourceTree = "<group>"; };
+		808AC13C251C8165001F9DDC /* v1304_firmware.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = v1304_firmware.zip; sourceTree = "<group>"; };
 		80B3148321AFE77B005D39CF /* SelectTeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTeamController.swift; sourceTree = "<group>"; };
 		80B3148521AFE7C5005D39CF /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		80B81D1924D9B48A00DAA0DA /* logoknew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoknew.png; sourceTree = "<group>"; };
 		80B9CB5622687F0C002CF9C6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		80BD24A221E36FF200771CAC /* FilesProvider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FilesProvider.xcodeproj; path = "../framework gpslive/FileProvider-master/FilesProvider.xcodeproj"; sourceTree = "<group>"; };
 		80BD24B221E38D7500771CAC /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
@@ -302,7 +304,7 @@
 		804E98AD2181C6CB003AA697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				807C90E723F2B81600CF9B41 /* v1301_firmware.zip */,
+				808AC13C251C8165001F9DDC /* v1304_firmware.zip */,
 				80C90F9C21AD88D600E5D012 /* gpslive.sqlite3 */,
 			);
 			path = "Supporting Files";
@@ -341,6 +343,7 @@
 		806276B4219C67CE00E79EAF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				80B81D1924D9B48A00DAA0DA /* logoknew.png */,
 				8026CA6122B2454F0086E067 /* logonew2.png */,
 				801BEDB121E8A9B4000870AA /* team.png */,
 				806276BC219C88A200E79EAF /* stop.png */,
@@ -565,14 +568,15 @@
 				806276BD219C88A200E79EAF /* stop.png in Resources */,
 				80202E1C217F3586009C73BE /* LaunchScreen.storyboard in Resources */,
 				80202E19217F3586009C73BE /* Assets.xcassets in Resources */,
+				80B81D1E24D9B48B00DAA0DA /* logoknew.png in Resources */,
 				8026CA6222B245500086E067 /* logonew2.png in Resources */,
 				80C90F9D21AD88D600E5D012 /* gpslive.sqlite3 in Resources */,
-				807C90E823F2B81700CF9B41 /* v1301_firmware.zip in Resources */,
 				80202E48217F614C009C73BE /* TradeGothicRegular.ttf in Resources */,
 				80BD24B921E3B03F00771CAC /* settings.png in Resources */,
 				801BEDB621E8A9B5000870AA /* team.png in Resources */,
 				806276BB219C713E00E79EAF /* playBig.png in Resources */,
 				80202E17217F3584009C73BE /* Main.storyboard in Resources */,
+				808AC13D251C8165001F9DDC /* v1304_firmware.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,7 +807,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GpsLive/GpsLive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.0.2;
+				CURRENT_PROJECT_VERSION = 1.3.1.1;
 				DEVELOPMENT_TEAM = CJ2C2YV5Z3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -816,7 +820,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ksport.GpsLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GpsLive/FMDB/GpsLive-Bridging-Header.h";
@@ -834,7 +838,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GpsLive/GpsLive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.0.2;
+				CURRENT_PROJECT_VERSION = 1.3.1.1;
 				DEVELOPMENT_TEAM = CJ2C2YV5Z3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -847,7 +851,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ksport.GpsLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GpsLive/FMDB/GpsLive-Bridging-Header.h";

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iVw-9f-5Ya">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iVw-9f-5Ya">
     <device id="ipad10_5" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -169,8 +169,8 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIs-IY-8Sm">
-                                        <rect key="frame" x="72" y="39.5" width="231.5" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIs-IY-8Sm">
+                                        <rect key="frame" x="64" y="39.5" width="247.5" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="mRX-Ok-iib"/>
                                         </constraints>
@@ -178,6 +178,13 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoknew.png" translatesAutoresizingMaskIntoConstraints="NO" id="N6S-tV-mGS">
+                                        <rect key="frame" x="19" y="27.5" width="34" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="9od-5C-YdQ"/>
+                                            <constraint firstAttribute="height" constant="45" id="rde-cl-9w9"/>
+                                        </constraints>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBk-sp-04L">
                                         <rect key="frame" x="16" y="30" width="40" height="40"/>
                                         <constraints>
@@ -192,11 +199,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="EIs-IY-8Sm" firstAttribute="leading" secondItem="GBk-sp-04L" secondAttribute="trailing" constant="16" id="KP7-Og-Gva"/>
+                                    <constraint firstItem="EIs-IY-8Sm" firstAttribute="leading" secondItem="GBk-sp-04L" secondAttribute="trailing" constant="8" id="KP7-Og-Gva"/>
                                     <constraint firstItem="jfM-to-Mwg" firstAttribute="centerY" secondItem="rrK-nn-aua" secondAttribute="centerY" id="Tx6-x4-tGF"/>
                                     <constraint firstAttribute="trailing" secondItem="rrK-nn-aua" secondAttribute="trailing" constant="8" id="ZaQ-kD-IBK"/>
                                     <constraint firstAttribute="height" constant="80" id="dEi-Xd-Yyn"/>
+                                    <constraint firstItem="N6S-tV-mGS" firstAttribute="centerY" secondItem="GBk-sp-04L" secondAttribute="centerY" id="fFU-QN-GpD"/>
                                     <constraint firstItem="GBk-sp-04L" firstAttribute="leading" secondItem="bDY-vL-Nwk" secondAttribute="leading" constant="16" id="iM0-zW-oxN"/>
+                                    <constraint firstItem="N6S-tV-mGS" firstAttribute="centerX" secondItem="GBk-sp-04L" secondAttribute="centerX" id="k8F-Fc-jlb"/>
                                     <constraint firstItem="rrK-nn-aua" firstAttribute="leading" secondItem="jfM-to-Mwg" secondAttribute="trailing" constant="8" id="o8M-Uh-ufp"/>
                                     <constraint firstAttribute="bottom" secondItem="rrK-nn-aua" secondAttribute="bottom" constant="16" id="yxK-lg-DnM"/>
                                     <constraint firstAttribute="bottom" secondItem="EIs-IY-8Sm" secondAttribute="bottom" constant="19.5" id="zJE-tn-bhr"/>
@@ -366,7 +375,7 @@
                             <constraint firstItem="6tP-fB-Vj8" firstAttribute="centerX" secondItem="qFd-sl-3HQ" secondAttribute="centerX" id="8pt-gr-Uxb"/>
                             <constraint firstItem="6tP-fB-Vj8" firstAttribute="centerY" secondItem="qFd-sl-3HQ" secondAttribute="centerY" id="A8O-Zx-WXc"/>
                             <constraint firstItem="QyQ-py-Awl" firstAttribute="leading" secondItem="PUw-HU-sfa" secondAttribute="leading" id="ACV-1L-uVa"/>
-                            <constraint firstItem="j9y-sr-t5b" firstAttribute="leading" secondItem="EIs-IY-8Sm" secondAttribute="trailing" constant="16" id="BPb-WR-tZD"/>
+                            <constraint firstItem="j9y-sr-t5b" firstAttribute="leading" secondItem="EIs-IY-8Sm" secondAttribute="trailing" constant="8" id="BPb-WR-tZD"/>
                             <constraint firstItem="AI5-Bt-3TN" firstAttribute="leading" secondItem="PUw-HU-sfa" secondAttribute="leading" id="C7Y-Y7-7y8"/>
                             <constraint firstItem="QyQ-py-Awl" firstAttribute="bottom" secondItem="PUw-HU-sfa" secondAttribute="bottom" id="DFg-u2-ZgH"/>
                             <constraint firstItem="BQw-Tr-FK1" firstAttribute="centerY" secondItem="qFd-sl-3HQ" secondAttribute="centerY" id="NfX-Ow-A3v"/>
@@ -399,6 +408,7 @@
                         <outlet property="btnStop" destination="jfM-to-Mwg" id="OZy-qx-miR"/>
                         <outlet property="btnTable" destination="f70-WQ-Z89" id="MYB-J0-5zc"/>
                         <outlet property="btnTile" destination="E73-w2-NZT" id="jGQ-m5-mOx"/>
+                        <outlet property="imgLogo" destination="N6S-tV-mGS" id="fef-h0-wcv"/>
                         <outlet property="lblActivity" destination="pFy-XM-jIz" id="RDa-lb-oDX"/>
                         <outlet property="lblDuration" destination="rrK-nn-aua" id="T6v-4d-65u"/>
                         <outlet property="lblLoadingSession" destination="tru-6X-eXb" id="IWT-k2-zar"/>
@@ -820,6 +830,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="logoknew.png" width="18" height="18"/>
         <image name="logonew2.png" width="160.32000732421875" height="49"/>
         <image name="playBig.png" width="384" height="384"/>
         <image name="settings.png" width="180" height="180"/>

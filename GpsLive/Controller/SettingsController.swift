@@ -12,7 +12,7 @@ import FilesProvider
 
 
 
-class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, SessionDelegate {
+class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, SessionDelegate, NMSSHChannelDelegate {
     
     
     
@@ -31,7 +31,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     let server: URL = URL(string: "ftp://10.3.141.1/")!
     let username = "nicola"
     let password = "ksportk50"
-    let firmwareName = "v1301_firmware"
+    let firmwareName = "v1304_firmware"
     
     var ftp: FTPFileProvider?
 
@@ -85,7 +85,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
                 // Read all the data
                 let data = file?.readDataToEndOfFile()
                 
-                self.ftp?.writeContents(path: "/home/nicola/\(self.firmwareName).zip", contents: data, atomically: true, overwrite: true, completionHandler: nil)
+                self.ftp?.writeContents(path: "\(self.firmwareName).zip", contents: data, atomically: true, overwrite: true, completionHandler: nil)
                 
                 // Close the file
                 file?.closeFile()
@@ -119,7 +119,7 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
                 print("Authentication succeeded")
             }
         }
-        
+        session.channel.delegate = self
         let response = session.channel.execute("dotnet /home/nicola/UpdateManager/UpdateManager.dll", error: nil)
         print("\(response)")
 
@@ -143,6 +143,24 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
         
     }
     
+    func channel(_ channel: NMSSHChannel, didReadData message: String) {
+        print(message)
+    }
+    
+    func channel(_ channel: NMSSHChannel, didReadError error: String) {
+        print(error)
+    }
+    
+    func channel(_ channel: NMSSHChannel, didReadRawData data: Data)
+    {
+        
+    }
+    
+    func channel(_ channel: NMSSHChannel, didReadRawError error: Data)
+    {
+        
+    }
+    
     func StartSyncData() {
         DispatchQueue.main.async(execute: {
             self.lblSyncMEssage.isHidden = false;
@@ -156,6 +174,8 @@ class SettingsController: UIViewController, FileProviderDelegate, SyncDelegate, 
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .default
     }
+    
+    
     
     func fileproviderSucceed(_ fileProvider: FileProviderOperations, operation: FileOperationType)
     {

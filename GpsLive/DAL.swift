@@ -54,6 +54,17 @@ class DAL
             defaults.set(true, forKey: v_1_1)
         }
         
+        let v_1_2 = "db_v_1_2"
+        if let _ = defaults.object(forKey: v_1_2)
+        {
+            
+        }
+        else
+        {
+            ExecuteUpdate("ALTER TABLE NewLive_Devices ADD COLUMN Mac TEXT")
+            
+            defaults.set(true, forKey: v_1_2)
+        }
         
     }
     
@@ -1412,7 +1423,10 @@ class DAL
                 let curr = NewLive_Devices();
                 curr.TeamID = results!.int(forColumn: "TeamID")
                 curr.DeviceID = results!.int(forColumn: "DeviceID")
-                
+                if results!.columnIsNull("Mac") == false
+                {
+                    curr.Mac = results!.string(forColumn: "Mac")
+                }
                 teams.append(curr)
             }
             
@@ -1463,7 +1477,7 @@ class DAL
             if loaded.count == 0
             {
 
-                let insertSQL = "INSERT INTO NewLive_Devices ( TeamID, DeviceID) VALUES (\(data.TeamID), \(data.DeviceID));"
+                let insertSQL = "INSERT INTO NewLive_Devices ( TeamID, DeviceID, Mac) VALUES (\(data.TeamID), \(data.DeviceID), '\(data.Mac)');"
 
 
                 let result = contactDB?.executeUpdate(insertSQL,

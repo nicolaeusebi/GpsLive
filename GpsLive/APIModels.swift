@@ -140,7 +140,7 @@ class NewLive_Devices
 {
     var TeamID : Int32 = 0
     var DeviceID : Int32 = 0
-
+    var Mac : String = ""
 }
 
 public class SessionData

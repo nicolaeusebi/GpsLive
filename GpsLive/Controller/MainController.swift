@@ -34,6 +34,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     @IBOutlet weak var btnPlayer: UIButton!
     @IBOutlet weak var btnTile: UIButton!
     @IBOutlet weak var btnSettings: UIButton!
+    @IBOutlet weak var imgLogo: UIImageView!
     
     var isDiscard = false
     
@@ -90,15 +91,19 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
             
             btnDevices.backgroundColor = UIColor(red: 70/255.0, green: 70/255.0, blue: 70/255.0, alpha: 1.0)
             btnSettings.isHidden = false
+            imgLogo.isHidden = true
         }
         else
         {
             self.btnStartBig.isHidden = true
             btnSettings.isHidden = true
+            imgLogo.isHidden = false
+            
             if SharedInfo.getUserName() == "" && SharedInfo.getPassword() == ""
             {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let vc = storyboard.instantiateViewController(withIdentifier: "LoginController") as? LoginController
+                vc?.parentController = self
                 vc?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
                 vc?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
                 if vc != nil
@@ -238,6 +243,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         activityCenter.isHidden = false
         activityCenter.startAnimating()
         btnSettings.isHidden = true
+        imgLogo.isHidden = false
     }
     
     @IBAction func btnStopTouched(_ sender: Any)
@@ -296,6 +302,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                         self.lblLoadingSession.isHidden = true
                         self.btnStartBig.isHidden = false
                         self.btnSettings.isHidden = false
+                        self.imgLogo.isHidden = true
                     })
                 }
                 
@@ -344,6 +351,10 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
                                 self.lblTeam.text = SharedInfo.TeamName.uppercased()
                                 self.btnStartBig.isHidden = false
                                 self.btnSettings.isHidden = false
+                                self.imgLogo.isHidden = true
+                                self.setTeamLogo(teamID: SharedInfo.TeamID)
+                                
+                                
                                 //                            self.StartSyncData()
                             }
                         }
@@ -357,11 +368,33 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         }
     }
     
+    func setTeamLogo(teamID: Int32)
+    {
+        do
+        {
+            let documentsDirectory = try FileManager.default.url(for: FileManager.SearchPathDirectory.documentDirectory, in:FileManager.SearchPathDomainMask.userDomainMask, appropriateFor:nil, create:false);
+            let path = documentsDirectory.path + "//" + "\(teamID).png"
+            
+            var readImage = UIImage(contentsOfFile: path)
+            if readImage != nil
+            {
+                self.imgLogo.image = readImage
+            }
+
+            
+        }
+        catch let error as NSError {
+            print(error)
+            
+        }
+    }
+    
     func teamSelected()
     {
         DispatchQueue.main.async() { () -> Void in
             self.btnStartBig.isHidden = false
             self.lblTeam.text = SharedInfo.TeamName.uppercased()
+            self.setTeamLogo(teamID: SharedInfo.TeamID)
 //            self.StartSyncData()
         }
     }
@@ -495,6 +528,7 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
         }
         DispatchQueue.main.async() { () -> Void in
             self.lblTeam.text = teamName.uppercased()
+            self.setTeamLogo(teamID: SharedInfo.TeamID)
         }
         APIHelper.GetSessionTypes(self)
     }
@@ -519,11 +553,58 @@ class MainController: UIViewController, SyncDelegate, SessionDelegate, WKNavigat
     {
         for curr in data {
             DAL.SavePlayerInfo(curr)
+            if curr.Number == 100 {
+                let image = curr.ImagePath
+                if image != nil {
+                    DownloadImageFromUrl(profilePicture: image!, filename: "\(curr.Team_ID).png")
+                }
+                
+            }
         }
         APIHelper.GetLiveParameters(self)
     }
     
+    func DownloadImageFromUrl(profilePicture: String, filename: String)
+    {
+        let url = "https://www.k-sportonline.com/\(profilePicture.replacingOccurrences(of: "../../", with: ""))"
+        if let checkedUrl = URL(string: url) {
+            downloadImage(url: checkedUrl, filename: filename)
+        }
+    }
     
+    func downloadImage(url: URL, filename: String) {
+        print("Download Started")
+        getDataFromUrl(url: url) { (data, response, error)  in
+            guard let data = data, error == nil else { return }
+            print(response?.suggestedFilename ?? url.lastPathComponent)
+            print("Download Finished")
+            DispatchQueue.main.async() { () -> Void in
+                let image = UIImage(data: data)
+                self.imgLogo.image = image
+                if image != nil
+                {
+                    do
+                    {
+                        let documentsDirectory = try FileManager.default.url(for: FileManager.SearchPathDirectory.documentDirectory, in:FileManager.SearchPathDomainMask.userDomainMask, appropriateFor:nil, create:false);
+                        let path = documentsDirectory.path + "//" + filename
+                        let fileManager = FileManager.default
+                        fileManager.createFile(atPath: path, contents: image!.pngData(), attributes: nil)
+                        
+                    }
+                    catch let error as NSError {
+                        print(error)
+                    }
+                }
+            }
+        }
+    }
+    
+    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+        URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            completion(data, response, error)
+            }.resume()
+    }
     
     func GetLiveParametersCompleted(success: Bool, data: [Live_Parameters_Table])
     {
